@@ -1,0 +1,133 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+    @using InventoryManagement.Application.Dto.Identity
+}
+
+@model CreateEmployeeDto;
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <h1>
+        Users
+    </h1>
+    <ol class="breadcrumb">
+        <li><a asp-controller="Employee" asp-action="Index"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a asp-controller="Employee" asp-action="Index">Users</a></li>
+        <li class="active class=" bg-info"">Add</li>
+    </ol>
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="row alert">
+        <!-- left column -->
+        <!--/.col (left) -->
+        <!-- right column -->
+        <div class="col-md-12">
+            <!-- Horizontal Form -->
+            <div class="box box-info">
+                <div class="box-header with-border">
+                    <a asp-controller="Employee" asp-action="Index" class="btn btn-success btn-flat" style="text-decoration:none"><i class="fa fa-list"></i> List</a>
+                </div>
+                <!-- /.box-header -->
+                <!-- form start -->
+                <div class="form-horizontal" >
+                    
+                    <div class="box-body">
+                        <div class="form-group">
+                            <label class="col-sm-3 ">Code</label>
+
+                            <div class="col-sm-9">
+                                <input type="text" disabled class="form-control" id="inputEmail3" asp-for="EmployeeCode">
+                            </div>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 ">Name</label>
+
+                            <div class="col-sm-9">
+                                <input type="text" disabled class="form-control" id="inputPassword3" asp-for="EmployeeName">
+                            </div>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 ">Email</label>
+
+                            <div class="col-sm-9">
+                                <input type="email" disabled class="form-control" id="inputPassword3" asp-for="Email">
+                            </div>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 ">Phone</label>
+
+                            <div class="col-sm-9">
+                                <input type="text" disabled class="form-control" id="inputPassword3" asp-for="PhoneNumber">
+                            </div>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 ">Position</label>
+
+                            <div class="col-sm-9">
+                                <input type="text" disabled class="form-control" id="inputPassword3" asp-for="Position">
+                            </div>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 ">CCCD</label>
+
+                            <div class="col-sm-9">
+                                <input type="text" disabled class="form-control" placeholder="RetailPrice" asp-for="CCCD">
+                            </div>
+                            <span asp-validation-for="CCCD" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 ">Role</label>
+
+                            <div class="col-sm-9">
+                                <select asp-for="RoleId" disabled class="form-control" asp-items="ViewBag.RoleId"></select>
+                            </div>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 ">Preview</label>
+
+                            <div class="col-sm-9">
+                                <img src="~/@Model.Image" alt="Alternate Text" style="max-height:200px;max-width:200px" />
+                            </div>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 ">UserName</label>
+
+                            <div class="col-sm-9">
+                                <input type="text" disabled class="form-control" placeholder="BlockPrice" asp-for="UserName">
+                            </div>
+                            
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-sm-3 "></div>
+                            <div class="col-sm-9">
+                                <a asp-controller="Employee" asp-action="Index"  class="btn btn-info btn-flat pull-left">Back</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.box-body -->
+                    <div class="box-footer"></div>
+                    <!-- /.box-footer -->
+                </div>
+            </div>
+            <!-- /.box -->
+
+        </div>
+        <!--/.col (right) -->
+    </div>
+    <!-- /.row -->
+</section>
+
+

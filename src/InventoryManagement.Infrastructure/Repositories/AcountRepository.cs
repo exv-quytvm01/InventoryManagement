@@ -1,10 +1,10 @@
 ﻿using ExampleProject.Core.Entities;
 using InventoryManagement.Application.Dto.Identity;
 using InventoryManagement.Application.IRepository;
+using InventoryManagement.Infrastructure.Data;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using System.IdentityModel.Tokens.Jwt;
-
 
 namespace InventoryManagement.Infrastructure.Repositories
 {
@@ -13,14 +13,108 @@ namespace InventoryManagement.Infrastructure.Repositories
         private readonly UserManager<Employee> _userManager;
         private readonly SignInManager<Employee> _signInManager;
         private readonly ILogger<AcountRepository> _logger;
+        private readonly RoleManager<IdentityRole> _roleManager;
+       
 
-        public AcountRepository(UserManager<Employee> userManager,
+        public AcountRepository(
+            UserManager<Employee> userManager,
             ILogger<AcountRepository> logger,
-            SignInManager<Employee> signInManager)
-        {
+            SignInManager<Employee> signInManager,
+            RoleManager<IdentityRole> roleManager
+            
+        ) {
             _logger = logger;
             _userManager = userManager;
             _signInManager = signInManager;
+            _roleManager = roleManager;
+            
+        }
+
+        public async Task<IReadOnlyList<Employee>> CreateAsync(IQueryable<Employee> source, int pageIndex, int pageSize)
+        {
+            var items = await source.Skip((pageIndex - 1) * pageSize).Take(pageSize).ToListAsync();
+            return items;
+        }
+
+        public async Task<bool> CreateUser(CreateEmployeeDto employee,string Path, string RoleName)
+        {
+            var existingUser = await _userManager.FindByNameAsync(employee.UserName);
+
+            if (existingUser != null)
+            {
+                throw new Exception($"Username '{employee.UserName}' already exists.");
+
+            }
+            var user = new Employee
+            {
+                EmployeeCode = employee.EmployeeCode,
+                Email = employee.Email,
+                EmployeeName = employee.EmployeeName,
+                UserName = employee.UserName,
+                PhoneNumber = employee.PhoneNumber,
+                CCCD = employee.CCCD,
+                Image = Path,
+                Position = employee.Position,
+                EmailConfirmed = true,
+                PhoneNumberConfirmed = true,
+            };
+            var existingEmail = await _userManager.FindByEmailAsync(employee.Email);
+            if (existingEmail == null)
+            {
+                var result = await _userManager.CreateAsync(user, employee.Password);
+
+                if (result.Succeeded)
+                {
+                    await _userManager.AddToRoleAsync(user, RoleName);
+                    return true;
+                }
+                else
+                {
+                    var errors = string.Join(", ", result.Errors.Select(e => e.Description));
+                    _logger.LogError($"Registration failed: {errors}");
+                    throw new Exception($"Registration failed: {errors}");
+                }
+            }
+            return false;
+        }
+
+        public async Task<Employee> GetById(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+            return user;
+        }
+
+        public IQueryable<Employee> getListByCondition()
+        {
+            return _userManager.Users;
+        }
+
+        public async Task<List<IdentityRole>> ListRoles()
+        {
+            var roles = await _roleManager.Roles.ToListAsync();
+            return roles;
+        }
+
+        public async Task<bool> LockUser(string userId)
+        {
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user == null)
+            {
+                
+                return false;
+            }
+
+           
+            if (await _userManager.IsLockedOutAsync(user))
+            {
+               
+                return true;
+            }
+
+            
+            var result = await _userManager.SetLockoutEndDateAsync(user, DateTimeOffset.MaxValue);
+
+            return result.Succeeded;
         }
 
         public async Task<AuthResponse> Login(AuthRequest request)
@@ -38,7 +132,6 @@ namespace InventoryManagement.Infrastructure.Repositories
             {
                 return null;
             }
-
 
             AuthResponse response = new AuthResponse
             {
@@ -97,44 +190,38 @@ namespace InventoryManagement.Infrastructure.Repositories
             catch (Exception ex)
             {
                 _logger.LogError($"An error occurred during registration: {ex.Message}");
-                throw; // Re-throw the exception to maintain the stack trace
+                throw; 
             }
         }
 
+        public async Task<bool> UnlockUser(string userId)
+        {
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user == null)
+            {
+                
+                return false;
+            }
 
-        //private async Task<JwtSecurityToken> GenerateToken(Employee user)
-        //{
-        //    var userClaims = await _userManager.GetClaimsAsync(user);
-        //    var roles = await _userManager.GetRolesAsync(user);
+            
+            if (!await _userManager.IsLockedOutAsync(user))
+            {
+                
+                return true;
+            }
 
-        //    var roleClaims = new List<Claim>();
+            
+            var result = await _userManager.SetLockoutEndDateAsync(user, DateTimeOffset.UtcNow);
 
-        //    for (int i = 0; i < roles.Count; i++)
-        //    {
-        //        roleClaims.Add(new Claim(ClaimTypes.Role, roles[i]));
-        //    }
+            return result.Succeeded;
+        }
 
-        //    var claims = new[]
-        //    {
-        //        new Claim(JwtRegisteredClaimNames.Sub, user.UserName),
-        //        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-        //        new Claim(JwtRegisteredClaimNames.Email, user.Email),
-        //        new Claim(ClaimTypes.Sid, user.Id)
-        //    }
-        //    .Union(userClaims)
-        //    .Union(roleClaims);
-
-        //    var symmetricSecurityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSettings.Key));
-        //    var signingCredentials = new SigningCredentials(symmetricSecurityKey, SecurityAlgorithms.HmacSha256);
-
-        //    var jwtSecurityToken = new JwtSecurityToken(
-        //        issuer: _jwtSettings.Issuer,
-        //        audience: _jwtSettings.Audience,
-        //        claims: claims,
-        //        expires: DateTime.UtcNow.AddMinutes(_jwtSettings.DurationInMinutes),
-        //        signingCredentials: signingCredentials);
-        //    return jwtSecurityToken;
-        //}
+        public async Task<bool> UpdateUser(Employee employee)
+        {
+            
+            var result = await _userManager.UpdateAsync(employee);
+            return result.Succeeded;
+        }
 
         private async Task<Employee> FindByEmailOrUsernameAsync(string identifier)
         {
@@ -147,5 +234,45 @@ namespace InventoryManagement.Infrastructure.Repositories
             var userByUsername = await _userManager.FindByNameAsync(identifier);
             return userByUsername;
         }
+
+
+
     }
 }
+
+
+
+
+//private async Task<JwtSecurityToken> GenerateToken(Employee user)
+//{
+//    var userClaims = await _userManager.GetClaimsAsync(user);
+//    var roles = await _userManager.GetRolesAsync(user);
+
+//    var roleClaims = new List<Claim>();
+
+//    for (int i = 0; i < roles.Count; i++)
+//    {
+//        roleClaims.Add(new Claim(ClaimTypes.Role, roles[i]));
+//    }
+
+//    var claims = new[]
+//    {
+//        new Claim(JwtRegisteredClaimNames.Sub, user.UserName),
+//        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+//        new Claim(JwtRegisteredClaimNames.Email, user.Email),
+//        new Claim(ClaimTypes.Sid, user.Id)
+//    }
+//    .Union(userClaims)
+//    .Union(roleClaims);
+
+//    var symmetricSecurityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSettings.Key));
+//    var signingCredentials = new SigningCredentials(symmetricSecurityKey, SecurityAlgorithms.HmacSha256);
+
+//    var jwtSecurityToken = new JwtSecurityToken(
+//        issuer: _jwtSettings.Issuer,
+//        audience: _jwtSettings.Audience,
+//        claims: claims,
+//        expires: DateTime.UtcNow.AddMinutes(_jwtSettings.DurationInMinutes),
+//        signingCredentials: signingCredentials);
+//    return jwtSecurityToken;
+//}

@@ -5,8 +5,20 @@
       "PackagePath": "staticwebassets\\Images\\1bb6933a-fb43-4df9-a430-1126955f9ec1_images.png"
     },
     {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\35ceb518-badd-4b88-a638-b99f8ca345b2_png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png",
+      "PackagePath": "staticwebassets\\Images\\35ceb518-badd-4b88-a638-b99f8ca345b2_png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\4cd07041-8f77-4461-b13e-59407d766c00_png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png",
+      "PackagePath": "staticwebassets\\Images\\4cd07041-8f77-4461-b13e-59407d766c00_png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png"
+    },
+    {
       "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\5ed8900c-a163-4b59-bbab-1954d55d96e7_images.png",
       "PackagePath": "staticwebassets\\Images\\5ed8900c-a163-4b59-bbab-1954d55d96e7_images.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\ae1d6b2c-9019-4664-a1b1-e4829c553f07_user.png",
+      "PackagePath": "staticwebassets\\Images\\ae1d6b2c-9019-4664-a1b1-e4829c553f07_user.png"
     },
     {
       "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\.csscomb.json",

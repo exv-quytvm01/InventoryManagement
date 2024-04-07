@@ -66,12 +66,36 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Nash/DemoExample/InventoryManagement/src/InventoryManagement.Presentation/Views/Employee/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Nash/DemoExample/InventoryManagement/src/InventoryManagement.Presentation/Views/Employee/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Nash/DemoExample/InventoryManagement/src/InventoryManagement.Presentation/Views/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Nash/DemoExample/InventoryManagement/src/InventoryManagement.Presentation/Views/Employee/Lock.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcTG9jay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Nash/DemoExample/InventoryManagement/src/InventoryManagement.Presentation/Views/Home/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Nash/DemoExample/InventoryManagement/src/InventoryManagement.Presentation/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Nash/DemoExample/InventoryManagement/src/InventoryManagement.Presentation/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Nash/DemoExample/InventoryManagement/src/InventoryManagement.Presentation/Views/Home/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Nash/DemoExample/InventoryManagement/src/InventoryManagement.Presentation/Views/Product/Create.cshtml]

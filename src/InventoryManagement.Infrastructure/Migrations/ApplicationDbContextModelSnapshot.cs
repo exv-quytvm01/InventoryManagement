@@ -33,10 +33,10 @@ namespace InventoryManagement.Infrastructure.Migrations
                     b.Property<string>("CategoryName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime?>("DateCreated")
+                    b.Property<DateTime>("DateCreated")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("LastModified")
+                    b.Property<DateTime>("LastModified")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
@@ -61,10 +61,10 @@ namespace InventoryManagement.Infrastructure.Migrations
                     b.Property<string>("CustomerPhone")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime?>("DateCreated")
+                    b.Property<DateTime>("DateCreated")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("LastModified")
+                    b.Property<DateTime>("LastModified")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Location")
@@ -93,7 +93,7 @@ namespace InventoryManagement.Infrastructure.Migrations
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime?>("DateCreated")
+                    b.Property<DateTime>("DateCreated")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
@@ -112,7 +112,7 @@ namespace InventoryManagement.Infrastructure.Migrations
                     b.Property<string>("Image")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime?>("LastModified")
+                    b.Property<DateTime>("LastModified")
                         .HasColumnType("datetime2");
 
                     b.Property<bool>("LockoutEnabled")
@@ -168,16 +168,18 @@ namespace InventoryManagement.Infrastructure.Migrations
                         {
                             Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "b88ecf52-4ccb-44ea-a8c2-a2a838f75f08",
+                            ConcurrencyStamp = "13fee956-4350-4ce9-9921-3093be2c61ba",
+                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "admin@localhost.com",
                             EmailConfirmed = true,
                             EmployeeName = "System Admin",
+                            LastModified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@LOCALHOST.COM",
                             NormalizedUserName = "ADMIN@LOCALHOST.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEEiKgTSnwOnzNk/Ov7XrxBb7xUySHebK877tuYEJa0ZgpspyWuBaCA4Lk8ve4wpYzw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEH3xeyhAhc/VHExMd3XCsuRuJF9b9yzc8C6iUQrQ6u3PZBLi0Bx4+Wtkmi6M5DWOTQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "d3d6d173-6fdd-4c57-a2b9-955ae0ba946e",
+                            SecurityStamp = "52229ba0-1074-4fa6-8fb5-b67d1c043eb9",
                             TwoFactorEnabled = false,
                             UserName = "admin@localhost.com"
                         },
@@ -185,16 +187,18 @@ namespace InventoryManagement.Infrastructure.Migrations
                         {
                             Id = "9e224968-33e4-4652-b7b7-8574d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "f4719eb2-21a6-443f-a1c8-44518194ce52",
+                            ConcurrencyStamp = "8698caaf-ffc9-4af5-8de8-e540db11e685",
+                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "user@localhost.com",
                             EmailConfirmed = true,
                             EmployeeName = "System User",
+                            LastModified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             LockoutEnabled = false,
                             NormalizedEmail = "USER@LOCALHOST.COM",
                             NormalizedUserName = "USER@LOCALHOST.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEOxO2P3jSv3HrHMUtXgY6C4+TS3ZFmSasi+pGmotqoE05T+wd+hiz/SNXpkEZ0my4g==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEAZULcj4W39BtaxVQAIGJdriCuSMR7ihj412dMiK79W8v8ATVPuBNTIrqAssvlfEog==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "80eb931b-cd3a-42c8-beb2-12e976da7dfa",
+                            SecurityStamp = "ed9fa040-4920-4373-b662-1c87a543c86e",
                             TwoFactorEnabled = false,
                             UserName = "user@localhost.com"
                         });
@@ -217,7 +221,7 @@ namespace InventoryManagement.Infrastructure.Migrations
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
-                    b.Property<DateTime?>("DateCreated")
+                    b.Property<DateTime>("DateCreated")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
@@ -226,7 +230,7 @@ namespace InventoryManagement.Infrastructure.Migrations
                     b.Property<string>("Image")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime?>("LastModified")
+                    b.Property<DateTime>("LastModified")
                         .HasColumnType("datetime2");
 
                     b.Property<float?>("MinimumPrice")
@@ -262,11 +266,14 @@ namespace InventoryManagement.Infrastructure.Migrations
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("DateCreated")
+                    b.Property<DateTime>("DateCreated")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("LastModified")
+                    b.Property<DateTime>("LastModified")
                         .HasColumnType("datetime2");
+
+                    b.Property<bool?>("Status")
+                        .HasColumnType("bit");
 
                     b.Property<int>("SupplierId")
                         .HasColumnType("int");
@@ -289,10 +296,10 @@ namespace InventoryManagement.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime?>("DateCreated")
+                    b.Property<DateTime>("DateCreated")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("LastModified")
+                    b.Property<DateTime>("LastModified")
                         .HasColumnType("datetime2");
 
                     b.Property<float>("OrderDiscount")
@@ -336,11 +343,14 @@ namespace InventoryManagement.Infrastructure.Migrations
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("DateCreated")
+                    b.Property<DateTime>("DateCreated")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("LastModified")
+                    b.Property<DateTime>("LastModified")
                         .HasColumnType("datetime2");
+
+                    b.Property<bool?>("Status")
+                        .HasColumnType("bit");
 
                     b.Property<float?>("total_anmt")
                         .HasColumnType("real");
@@ -360,10 +370,10 @@ namespace InventoryManagement.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime?>("DateCreated")
+                    b.Property<DateTime>("DateCreated")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("LastModified")
+                    b.Property<DateTime>("LastModified")
                         .HasColumnType("datetime2");
 
                     b.Property<float>("OrderPrice")
@@ -398,10 +408,10 @@ namespace InventoryManagement.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime?>("DateCreated")
+                    b.Property<DateTime>("DateCreated")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("LastModified")
+                    b.Property<DateTime>("LastModified")
                         .HasColumnType("datetime2");
 
                     b.Property<int>("ProductId")
@@ -428,10 +438,10 @@ namespace InventoryManagement.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime?>("DateCreated")
+                    b.Property<DateTime>("DateCreated")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("LastModified")
+                    b.Property<DateTime>("LastModified")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("SupplierAddress")

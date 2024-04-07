@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "D:\\Nash\\DemoExample\\InventoryManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22999B8D-17DF-4847-8FC0-4F5ADCDFE79C}|src\\InventoryManagement.Presentation\\InventoryManagement.Presentation.csproj|d:\\nash\\demoexample\\inventorymanagement\\src\\inventorymanagement.presentation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22999B8D-17DF-4847-8FC0-4F5ADCDFE79C}|src\\InventoryManagement.Presentation\\InventoryManagement.Presentation.csproj|solutionrelative:src\\inventorymanagement.presentation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8D7B228E-5726-4527-9C24-C8E8A0A5CB7B}|src\\InventoryManagement.Infrastructure\\InventoryManagement.Infrastructure.csproj|D:\\Nash\\DemoExample\\InventoryManagement\\src\\inventorymanagement.infrastructure\\repositories\\acountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D7B228E-5726-4527-9C24-C8E8A0A5CB7B}|src\\InventoryManagement.Infrastructure\\InventoryManagement.Infrastructure.csproj|solutionrelative:src\\inventorymanagement.infrastructure\\repositories\\acountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22999B8D-17DF-4847-8FC0-4F5ADCDFE79C}|src\\InventoryManagement.Presentation\\InventoryManagement.Presentation.csproj|d:\\nash\\demoexample\\inventorymanagement\\src\\inventorymanagement.presentation\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{22999B8D-17DF-4847-8FC0-4F5ADCDFE79C}|src\\InventoryManagement.Presentation\\InventoryManagement.Presentation.csproj|solutionrelative:src\\inventorymanagement.presentation\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{22999B8D-17DF-4847-8FC0-4F5ADCDFE79C}|src\\InventoryManagement.Presentation\\InventoryManagement.Presentation.csproj|D:\\Nash\\DemoExample\\InventoryManagement\\src\\inventorymanagement.presentation\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22999B8D-17DF-4847-8FC0-4F5ADCDFE79C}|src\\InventoryManagement.Presentation\\InventoryManagement.Presentation.csproj|solutionrelative:src\\inventorymanagement.presentation\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8AFE63-7B9C-4227-933D-9B89963E79C9}|src\\InventoryManagement.Application\\InventoryManagement.Application.csproj|d:\\nash\\demoexample\\inventorymanagement\\src\\inventorymanagement.application\\featurers\\identities\\create\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8AFE63-7B9C-4227-933D-9B89963E79C9}|src\\InventoryManagement.Application\\InventoryManagement.Application.csproj|solutionrelative:src\\inventorymanagement.application\\featurers\\identities\\create\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22999B8D-17DF-4847-8FC0-4F5ADCDFE79C}|src\\InventoryManagement.Presentation\\InventoryManagement.Presentation.csproj|D:\\Nash\\DemoExample\\InventoryManagement\\src\\inventorymanagement.presentation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22999B8D-17DF-4847-8FC0-4F5ADCDFE79C}|src\\InventoryManagement.Presentation\\InventoryManagement.Presentation.csproj|solutionrelative:src\\inventorymanagement.presentation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8AFE63-7B9C-4227-933D-9B89963E79C9}|src\\InventoryManagement.Application\\InventoryManagement.Application.csproj|D:\\Nash\\DemoExample\\InventoryManagement\\src\\inventorymanagement.application\\dto\\identity\\createemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8AFE63-7B9C-4227-933D-9B89963E79C9}|src\\InventoryManagement.Application\\InventoryManagement.Application.csproj|solutionrelative:src\\inventorymanagement.application\\dto\\identity\\createemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8AFE63-7B9C-4227-933D-9B89963E79C9}|src\\InventoryManagement.Application\\InventoryManagement.Application.csproj|D:\\Nash\\DemoExample\\InventoryManagement\\src\\inventorymanagement.application\\featurers\\identities\\update\\updateusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8AFE63-7B9C-4227-933D-9B89963E79C9}|src\\InventoryManagement.Application\\InventoryManagement.Application.csproj|solutionrelative:src\\inventorymanagement.application\\featurers\\identities\\update\\updateusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "src\\InventoryManagement.Presentation\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "src\\InventoryManagement.Presentation\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-07T06:31:38.891Z",
+              "DocumentIndex": 2,
+              "Title": "CreateUserCommandHandler.cs",
+              "DocumentMoniker": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Application\\Featurers\\Identities\\Create\\CreateUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\InventoryManagement.Application\\Featurers\\Identities\\Create\\CreateUserCommandHandler.cs",
+              "ToolTip": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Application\\Featurers\\Identities\\Create\\CreateUserCommandHandler.cs",
+              "RelativeToolTip": "src\\InventoryManagement.Application\\Featurers\\Identities\\Create\\CreateUserCommandHandler.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T19:31:54.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateEmployeeDto.cs",
+              "DocumentMoniker": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Application\\Dto\\Identity\\CreateEmployeeDto.cs",
+              "RelativeDocumentMoniker": "src\\InventoryManagement.Application\\Dto\\Identity\\CreateEmployeeDto.cs",
+              "ToolTip": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Application\\Dto\\Identity\\CreateEmployeeDto.cs",
+              "RelativeToolTip": "src\\InventoryManagement.Application\\Dto\\Identity\\CreateEmployeeDto.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T19:08:56.473Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ScaffoldingReadMe.txt",
-              "DocumentMoniker": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\ScaffoldingReadMe.txt",
-              "RelativeDocumentMoniker": "src\\InventoryManagement.Presentation\\ScaffoldingReadMe.txt",
-              "ToolTip": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\ScaffoldingReadMe.txt",
-              "RelativeToolTip": "src\\InventoryManagement.Presentation\\ScaffoldingReadMe.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-04-07T06:31:11.705Z",
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "src\\InventoryManagement.Presentation\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "src\\InventoryManagement.Presentation\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAwwFMAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T19:00:08.108Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AcountRepository.cs",
+              "DocumentMoniker": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Infrastructure\\Repositories\\AcountRepository.cs",
+              "RelativeDocumentMoniker": "src\\InventoryManagement.Infrastructure\\Repositories\\AcountRepository.cs",
+              "ToolTip": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Infrastructure\\Repositories\\AcountRepository.cs",
+              "RelativeToolTip": "src\\InventoryManagement.Infrastructure\\Repositories\\AcountRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T18:55:25.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "src\\InventoryManagement.Presentation\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "src\\InventoryManagement.Presentation\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAADkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T18:50:07.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateUserCommandHandler.cs",
+              "DocumentMoniker": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Application\\Featurers\\Identities\\Update\\UpdateUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\InventoryManagement.Application\\Featurers\\Identities\\Update\\UpdateUserCommandHandler.cs",
+              "ToolTip": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Application\\Featurers\\Identities\\Update\\UpdateUserCommandHandler.cs",
+              "RelativeToolTip": "src\\InventoryManagement.Application\\Featurers\\Identities\\Update\\UpdateUserCommandHandler.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T18:48:31.286Z"
             }
           ]
         }

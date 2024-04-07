@@ -10,3 +10,4 @@ D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Core\obj\Debug\n
 D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Core\obj\Debug\net8.0\InventoryManagement.Core.pdb
 D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Core\obj\Debug\net8.0\ref\InventoryManagement.Core.dll
 D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Core\obj\Debug\net8.0\InventoryManagement.Core.csproj.AssemblyReference.cache
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Core\obj\Debug\net8.0\InventoryManagement.Core.sourcelink.json

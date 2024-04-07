@@ -1,4 +1,6 @@
-﻿using InventoryManagement.Application.Dto.Identity;
+﻿using ExampleProject.Core.Entities;
+using InventoryManagement.Application.Dto.Identity;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +13,13 @@ namespace InventoryManagement.Application.IRepository
     {
         Task<AuthResponse> Login(AuthRequest request);
         Task<RegistrationResponse> Register(RegistrationRequest request);
-        
+        Task<bool> CreateUser(CreateEmployeeDto employee, string Path, string RoleName);
+        Task<bool> UpdateUser(Employee employee);
+        Task<List<IdentityRole>> ListRoles();
+        Task<IReadOnlyList<Employee>> CreateAsync(IQueryable<Employee> source, int pageIndex, int pageSize);
+        IQueryable<Employee> getListByCondition();
+        Task<Employee> GetById(string id);
+        Task<bool> UnlockUser(string userId);
+        Task<bool> LockUser(string userId);
     }
 }

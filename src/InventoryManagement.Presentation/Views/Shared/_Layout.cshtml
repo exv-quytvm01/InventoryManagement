@@ -156,6 +156,21 @@
                             <li><a asp-controller="Supplier" asp-action="Create"><i class="fa fa-circle-o"></i> App Supplier</a></li>
                         </ul>
                     </li>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <li class="treeview">
+                            <a href="#">
+                                <i class=" fa fa-users"></i> <span>Members</span>
+                                <span class="pull-right-container">
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </span>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a asp-controller="Employee" asp-action="Index"><i class="fa fa-circle-o"></i> Users List</a></li>
+                                <li><a asp-controller="Employee" asp-action="Create"><i class="fa fa-circle-o"></i> App User</a></li>
+                            </ul>
+                        </li>
+                    }
                     @* <li class="treeview">
                         <a href="#">
                             <i class="fa fa-share"></i> <span>Multilevel</span>

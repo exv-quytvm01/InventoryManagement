@@ -20,5 +20,6 @@ namespace ExampleProject.Core.Entities
         public Supplier? Supplier { get; set; }
         public DateTime Date { get; set; }
         public float? total_anmt { get; set; }
+        public bool? Status { get; set; }
     }
 }

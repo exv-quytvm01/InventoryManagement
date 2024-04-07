@@ -1,18 +1,19 @@
-using InventoryManagement.Presentation.Models;
+using InventoryManagement.Application.Dto.Identity;
+using InventoryManagement.Application.Featurers.Identities.Create;
+using InventoryManagement.Application.Featurers.Identities.GetById;
+using InventoryManagement.Application.Featurers.Identities.Update;
+using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace InventoryManagement.Presentation.Controllers
 {
-    [Authorize(Policy = "RequireAuthenticatedUser")]
-    public class HomeController : Controller
+    [Authorize]
+    public class HomeController : ApiControllerBase
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IMediator mediator) : base(mediator)
         {
-            _logger = logger;
         }
 
         public IActionResult Index()
@@ -25,10 +26,32 @@ namespace InventoryManagement.Presentation.Controllers
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        [HttpGet]
+        public async Task<IActionResult> Edit(string Id) {
+            var command = new GetUserById() { Id = Id };
+            var reponse = await _mediator.Send(command);
+            return View(reponse);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(CreateEmployeeDto employeeDto, IFormFile? Image)
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            if (ModelState.IsValid)
+            {
+                var command = new UpdateUserCommand()
+                {
+                    employee = employeeDto,
+                    Image = Image
+                };
+                var response = await _mediator.Send(command);
+                if (response)
+                {
+                    return RedirectToAction("Edit", "Home");
+                }
+            }
+
+            return View(employeeDto);
         }
     }
 }

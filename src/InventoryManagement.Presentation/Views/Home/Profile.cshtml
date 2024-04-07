@@ -1,0 +1,150 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+    @using InventoryManagement.Application.Dto.Identity
+}
+
+@model CreateEmployeeDto;
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <h1>
+        Profile
+    </h1>
+    <ol class="breadcrumb">
+        <li><a asp-controller="Home" asp-action="Index"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a asp-controller="Home" asp-action="Profile">Profile</a></li>
+        <li class="active class=" bg-info"">Add</li>
+    </ol>
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="row alert">
+        <!-- left column -->
+        <!--/.col (left) -->
+        <!-- right column -->
+        <div class="col-md-12">
+            <!-- Horizontal Form -->
+            <div class="box box-info">
+               @*  <div class="box-header with-border">
+                    <a asp-controller="Home" asp-action="Index" class="btn btn-success btn-flat" style="text-decoration:none"><i class="fa fa-list"></i> List</a>
+                </div> *@
+                <!-- /.box-header -->
+                <!-- form start -->
+                <form asp-action="Profile" method="post" class="form-horizontal" enctype="multipart/form-data">
+                    @Html.AntiForgeryToken()
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="Id" />
+                    <div class="box-body">
+                        <div class="form-group">
+                            <label class="col-sm-3 ">Code</label>
+
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="inputEmail3" asp-for="EmployeeCode">
+                            </div>
+                            <span asp-validation-for="EmployeeCode" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 ">Name</label>
+
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="inputPassword3" asp-for="EmployeeName">
+                            </div>
+                            <span asp-validation-for="EmployeeName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 ">Email</label>
+
+                            <div class="col-sm-9">
+                                <input type="email" class="form-control" id="inputPassword3" asp-for="Email">
+                            </div>
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 ">Phone</label>
+
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="inputPassword3" asp-for="PhoneNumber">
+                            </div>
+                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 ">Position</label>
+
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="inputPassword3" asp-for="Position">
+                            </div>
+                            <span asp-validation-for="Position" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 ">CCCD</label>
+
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" asp-for="CCCD">
+                            </div>
+                            <span asp-validation-for="CCCD" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 ">Preview</label>
+
+                            <div class="col-sm-9">
+                                <img src="~/@Model.Image" alt="Alternate Text" style="max-height:200px;max-width:200px" />
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 ">Image</label>
+
+                            <div class="col-sm-9">
+                                <input type="file" asp-for="Image" />
+                            </div>
+                            <span asp-validation-for="Image" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 ">UserName</label>
+
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" asp-for="UserName">
+                            </div>
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+                        </div>
+                       
+                        <div class="form-group">
+                            <div class="col-sm-3 "></div>
+                            <div class="col-sm-9">
+                                <button type="submit" class="btn btn-info btn-flat pull-left">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.box-body -->
+                    <div class="box-footer"></div>
+                    <!-- /.box-footer -->
+                </form>
+            </div>
+            <!-- /.box -->
+
+        </div>
+        <!--/.col (right) -->
+    </div>
+    <!-- /.row -->
+</section>
+
+@section FootLinks {
+    <!-- CK Editor -->
+    <script>
+        $(function () {
+
+            CKEDITOR.replace('editor1');
+
+        })
+    </script>
+}
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

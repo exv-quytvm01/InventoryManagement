@@ -72,7 +72,7 @@ namespace InventoryManagement.Infrastructure
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
-            
+            services.AddScoped<UserManager<Employee>>();
 
 
             services.AddScoped<IAcountRepository, AcountRepository>();

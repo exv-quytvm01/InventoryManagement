@@ -26,7 +26,7 @@
         <!-- Menu Footer-->
         <li class="user-footer">
             <div class="pull-left">
-                <a href="#" class="btn btn-default btn-flat">Profile</a>
+                    <a asp-controller="Home" asp-action="Edit" asp-route-Id="@UserManager.GetUserAsync(User).Result.Id" class="btn btn-default btn-flat">Profile</a>
             </div>
             <div class="pull-right">
                 <form id="logoutForm" asp-area="" asp-controller="Account" asp-action="Logout" method="post" class="form-inline">

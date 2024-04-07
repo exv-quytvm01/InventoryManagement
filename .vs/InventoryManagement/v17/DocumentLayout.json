@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Nash\\DemoExample\\InventoryManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22999B8D-17DF-4847-8FC0-4F5ADCDFE79C}|src\\InventoryManagement.Presentation\\InventoryManagement.Presentation.csproj|d:\\nash\\demoexample\\inventorymanagement\\src\\inventorymanagement.presentation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22999B8D-17DF-4847-8FC0-4F5ADCDFE79C}|src\\InventoryManagement.Presentation\\InventoryManagement.Presentation.csproj|solutionrelative:src\\inventorymanagement.presentation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22999B8D-17DF-4847-8FC0-4F5ADCDFE79C}|src\\InventoryManagement.Presentation\\InventoryManagement.Presentation.csproj|d:\\nash\\demoexample\\inventorymanagement\\src\\inventorymanagement.presentation\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{22999B8D-17DF-4847-8FC0-4F5ADCDFE79C}|src\\InventoryManagement.Presentation\\InventoryManagement.Presentation.csproj|solutionrelative:src\\inventorymanagement.presentation\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "src\\InventoryManagement.Presentation\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "src\\InventoryManagement.Presentation\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T06:31:38.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "src\\InventoryManagement.Presentation\\ScaffoldingReadMe.txt",
+              "ToolTip": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "src\\InventoryManagement.Presentation\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-07T06:31:11.705Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

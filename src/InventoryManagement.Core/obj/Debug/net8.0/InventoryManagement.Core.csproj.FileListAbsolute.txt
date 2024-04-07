@@ -1,0 +1,12 @@
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Core\bin\Debug\net8.0\InventoryManagement.Core.deps.json
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Core\bin\Debug\net8.0\InventoryManagement.Core.dll
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Core\bin\Debug\net8.0\InventoryManagement.Core.pdb
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Core\obj\Debug\net8.0\InventoryManagement.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Core\obj\Debug\net8.0\InventoryManagement.Core.AssemblyInfoInputs.cache
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Core\obj\Debug\net8.0\InventoryManagement.Core.AssemblyInfo.cs
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Core\obj\Debug\net8.0\InventoryManagement.Core.csproj.CoreCompileInputs.cache
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Core\obj\Debug\net8.0\InventoryManagement.Core.dll
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Core\obj\Debug\net8.0\refint\InventoryManagement.Core.dll
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Core\obj\Debug\net8.0\InventoryManagement.Core.pdb
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Core\obj\Debug\net8.0\ref\InventoryManagement.Core.dll
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Core\obj\Debug\net8.0\InventoryManagement.Core.csproj.AssemblyReference.cache

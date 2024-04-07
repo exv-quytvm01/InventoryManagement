@@ -1,0 +1,16 @@
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Application\bin\Debug\net8.0\InventoryManagement.Application.deps.json
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Application\bin\Debug\net8.0\InventoryManagement.Application.dll
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Application\bin\Debug\net8.0\InventoryManagement.Application.pdb
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Application\bin\Debug\net8.0\InventoryManagement.Core.dll
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Application\bin\Debug\net8.0\InventoryManagement.Core.pdb
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.csproj.AssemblyReference.cache
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.AssemblyInfoInputs.cache
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.AssemblyInfo.cs
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.csproj.CoreCompileInputs.cache
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Application\obj\Debug\net8.0\Inventor.0D5EB3FB.Up2Date
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.dll
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Application\obj\Debug\net8.0\refint\InventoryManagement.Application.dll
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.pdb
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Application\obj\Debug\net8.0\ref\InventoryManagement.Application.dll
+D:\Nash\DemoExample\InventoryManagement\src\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.sourcelink.json

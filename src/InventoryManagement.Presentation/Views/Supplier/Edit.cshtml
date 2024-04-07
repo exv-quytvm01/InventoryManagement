@@ -1,0 +1,91 @@
+﻿@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+    @using InventoryManagement.Application.Dto.Suppliers
+}
+
+@model SupplierDto;
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <h1>
+        Supplier
+    </h1>
+    <ol class="breadcrumb">
+        <li><a asp-controller="Home" asp-action="Index"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a asp-controller="Supplier" asp-action="Index">Suppliers</a></li>
+        <li class="active class=" bg-info"">Add</li>
+    </ol>
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="row alert">
+        <!-- left column -->
+        <!--/.col (left) -->
+        <!-- right column -->
+        <div class="col-md-12">
+            <!-- Horizontal Form -->
+            <div class="box box-info">
+                <div class="box-header with-border">
+                    <a asp-controller="Supplier" asp-action="Index" class="btn btn-success btn-flat" style="text-decoration:none"><i class="fa fa-list"></i> List</a>
+                </div>
+                <!-- /.box-header -->
+                <!-- form start -->
+                <form asp-action="Edit" method="post" class="form-horizontal">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" asp-for="Id" />
+                    <div class="box-body">
+                        <div class="form-group">
+                            <label class="col-sm-3 ">Suplier Name</label>
+
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="inputEmail3" placeholder="Suplier Name" asp-for="SupplierName">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 ">Suplier Code</label>
+
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="inputEmail3" placeholder="Category Email" asp-for="SupplierCode">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 ">Suplier Email</label>
+
+                            <div class="col-sm-9">
+                                <input type="email" class="form-control" id="inputEmail3" placeholder="Category Phone" asp-for="SupplierEmail">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 ">Suplier Phone</label>
+
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="inputEmail3" placeholder="Location" asp-for="SupplierPhone">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 ">Address</label>
+
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="inputEmail3" placeholder="Address" asp-for="SupplierAddress">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-3 "></div>
+                            <div class="col-sm-9">
+                                <button type="submit" class="btn btn-info btn-flat pull-left">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.box-body -->
+                    <div class="box-footer"></div>
+                    <!-- /.box-footer -->
+                </form>
+            </div>
+            <!-- /.box -->
+
+        </div>
+        <!--/.col (right) -->
+    </div>
+    <!-- /.row -->
+</section>

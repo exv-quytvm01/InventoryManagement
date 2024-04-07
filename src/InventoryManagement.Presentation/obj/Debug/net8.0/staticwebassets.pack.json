@@ -1,0 +1,1689 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\1bb6933a-fb43-4df9-a430-1126955f9ec1_images.png",
+      "PackagePath": "staticwebassets\\Images\\1bb6933a-fb43-4df9-a430-1126955f9ec1_images.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\5ed8900c-a163-4b59-bbab-1954d55d96e7_images.png",
+      "PackagePath": "staticwebassets\\Images\\5ed8900c-a163-4b59-bbab-1954d55d96e7_images.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\.csscomb.json",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\.csscomb.json"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\.csslintrc",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\.csslintrc"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\alerts.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\alerts.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\badges.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\badges.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\bootstrap.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\bootstrap.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\breadcrumbs.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\breadcrumbs.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\button-groups.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\button-groups.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\buttons.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\buttons.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\carousel.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\carousel.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\close.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\close.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\code.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\code.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\component-animations.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\component-animations.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\dropdowns.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\dropdowns.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\forms.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\forms.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\glyphicons.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\glyphicons.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\grid.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\grid.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\input-groups.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\input-groups.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\jumbotron.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\jumbotron.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\labels.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\labels.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\list-group.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\list-group.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\media.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\media.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\alerts.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\alerts.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\background-variant.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\background-variant.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\border-radius.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\border-radius.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\buttons.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\buttons.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\center-block.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\center-block.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\clearfix.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\clearfix.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\forms.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\forms.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\gradients.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\gradients.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\grid-framework.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\grid-framework.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\grid.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\grid.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\hide-text.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\hide-text.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\image.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\image.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\labels.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\labels.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\list-group.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\list-group.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\nav-divider.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\nav-divider.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\nav-vertical-align.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\nav-vertical-align.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\opacity.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\opacity.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\pagination.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\pagination.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\panels.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\panels.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\progress-bar.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\progress-bar.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\reset-filter.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\reset-filter.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\reset-text.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\reset-text.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\resize.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\resize.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\responsive-visibility.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\responsive-visibility.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\size.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\size.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\tab-focus.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\tab-focus.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\table-row.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\table-row.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\text-emphasis.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\text-emphasis.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\text-overflow.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\text-overflow.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\mixins\\vendor-prefixes.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\mixins\\vendor-prefixes.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\modals.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\modals.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\navbar.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\navbar.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\navs.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\navs.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\normalize.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\normalize.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\pager.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\pager.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\pagination.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\pagination.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\panels.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\panels.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\popovers.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\popovers.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\print.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\print.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\progress-bars.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\progress-bars.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\responsive-embed.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\responsive-embed.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\responsive-utilities.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\responsive-utilities.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\scaffolding.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\scaffolding.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\tables.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\tables.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\theme.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\theme.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\thumbnails.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\thumbnails.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\tooltip.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\tooltip.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\type.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\type.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\utilities.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\utilities.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\variables.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\variables.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\wells.less",
+      "PackagePath": "staticwebassets\\build\\bootstrap-less\\wells.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\grunt\\.jshintrc",
+      "PackagePath": "staticwebassets\\build\\grunt\\.jshintrc"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\js\\.jscsrc",
+      "PackagePath": "staticwebassets\\build\\js\\.jscsrc"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\js\\.jshintrc",
+      "PackagePath": "staticwebassets\\build\\js\\.jshintrc"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\js\\BoxRefresh.js",
+      "PackagePath": "staticwebassets\\build\\js\\BoxRefresh.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\js\\BoxWidget.js",
+      "PackagePath": "staticwebassets\\build\\js\\BoxWidget.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\js\\ControlSidebar.js",
+      "PackagePath": "staticwebassets\\build\\js\\ControlSidebar.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\js\\DirectChat.js",
+      "PackagePath": "staticwebassets\\build\\js\\DirectChat.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\js\\Layout.js",
+      "PackagePath": "staticwebassets\\build\\js\\Layout.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\js\\PushMenu.js",
+      "PackagePath": "staticwebassets\\build\\js\\PushMenu.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\js\\TodoList.js",
+      "PackagePath": "staticwebassets\\build\\js\\TodoList.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\js\\Tree.js",
+      "PackagePath": "staticwebassets\\build\\js\\Tree.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\.csslintrc",
+      "PackagePath": "staticwebassets\\build\\less\\.csslintrc"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\404_500_errors.less",
+      "PackagePath": "staticwebassets\\build\\less\\404_500_errors.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\AdminLTE-without-plugins.less",
+      "PackagePath": "staticwebassets\\build\\less\\AdminLTE-without-plugins.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\AdminLTE.less",
+      "PackagePath": "staticwebassets\\build\\less\\AdminLTE.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\alerts.less",
+      "PackagePath": "staticwebassets\\build\\less\\alerts.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\bootstrap-social.less",
+      "PackagePath": "staticwebassets\\build\\less\\bootstrap-social.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\boxes.less",
+      "PackagePath": "staticwebassets\\build\\less\\boxes.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\buttons.less",
+      "PackagePath": "staticwebassets\\build\\less\\buttons.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\callout.less",
+      "PackagePath": "staticwebassets\\build\\less\\callout.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\carousel.less",
+      "PackagePath": "staticwebassets\\build\\less\\carousel.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\control-sidebar.less",
+      "PackagePath": "staticwebassets\\build\\less\\control-sidebar.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\core.less",
+      "PackagePath": "staticwebassets\\build\\less\\core.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\datepicker.less",
+      "PackagePath": "staticwebassets\\build\\less\\datepicker.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\direct-chat.less",
+      "PackagePath": "staticwebassets\\build\\less\\direct-chat.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\dropdown.less",
+      "PackagePath": "staticwebassets\\build\\less\\dropdown.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\forms.less",
+      "PackagePath": "staticwebassets\\build\\less\\forms.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\fullcalendar.less",
+      "PackagePath": "staticwebassets\\build\\less\\fullcalendar.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\header.less",
+      "PackagePath": "staticwebassets\\build\\less\\header.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\info-box.less",
+      "PackagePath": "staticwebassets\\build\\less\\info-box.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\invoice.less",
+      "PackagePath": "staticwebassets\\build\\less\\invoice.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\labels.less",
+      "PackagePath": "staticwebassets\\build\\less\\labels.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\lockscreen.less",
+      "PackagePath": "staticwebassets\\build\\less\\lockscreen.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\login_and_register.less",
+      "PackagePath": "staticwebassets\\build\\less\\login_and_register.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\mailbox.less",
+      "PackagePath": "staticwebassets\\build\\less\\mailbox.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\miscellaneous.less",
+      "PackagePath": "staticwebassets\\build\\less\\miscellaneous.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\build\\less\\mixins.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\modal.less",
+      "PackagePath": "staticwebassets\\build\\less\\modal.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\navs.less",
+      "PackagePath": "staticwebassets\\build\\less\\navs.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\plugins.less",
+      "PackagePath": "staticwebassets\\build\\less\\plugins.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\print.less",
+      "PackagePath": "staticwebassets\\build\\less\\print.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\products.less",
+      "PackagePath": "staticwebassets\\build\\less\\products.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\profile.less",
+      "PackagePath": "staticwebassets\\build\\less\\profile.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\progress-bars.less",
+      "PackagePath": "staticwebassets\\build\\less\\progress-bars.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\select2.less",
+      "PackagePath": "staticwebassets\\build\\less\\select2.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\sidebar-mini.less",
+      "PackagePath": "staticwebassets\\build\\less\\sidebar-mini.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\sidebar.less",
+      "PackagePath": "staticwebassets\\build\\less\\sidebar.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\skins\\_all-skins.less",
+      "PackagePath": "staticwebassets\\build\\less\\skins\\_all-skins.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\skins\\skin-black-light.less",
+      "PackagePath": "staticwebassets\\build\\less\\skins\\skin-black-light.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\skins\\skin-black.less",
+      "PackagePath": "staticwebassets\\build\\less\\skins\\skin-black.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\skins\\skin-blue-light.less",
+      "PackagePath": "staticwebassets\\build\\less\\skins\\skin-blue-light.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\skins\\skin-blue.less",
+      "PackagePath": "staticwebassets\\build\\less\\skins\\skin-blue.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\skins\\skin-green-light.less",
+      "PackagePath": "staticwebassets\\build\\less\\skins\\skin-green-light.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\skins\\skin-green.less",
+      "PackagePath": "staticwebassets\\build\\less\\skins\\skin-green.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\skins\\skin-purple-light.less",
+      "PackagePath": "staticwebassets\\build\\less\\skins\\skin-purple-light.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\skins\\skin-purple.less",
+      "PackagePath": "staticwebassets\\build\\less\\skins\\skin-purple.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\skins\\skin-red-light.less",
+      "PackagePath": "staticwebassets\\build\\less\\skins\\skin-red-light.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\skins\\skin-red.less",
+      "PackagePath": "staticwebassets\\build\\less\\skins\\skin-red.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\skins\\skin-yellow-light.less",
+      "PackagePath": "staticwebassets\\build\\less\\skins\\skin-yellow-light.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\skins\\skin-yellow.less",
+      "PackagePath": "staticwebassets\\build\\less\\skins\\skin-yellow.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\small-box.less",
+      "PackagePath": "staticwebassets\\build\\less\\small-box.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\social-widgets.less",
+      "PackagePath": "staticwebassets\\build\\less\\social-widgets.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\table.less",
+      "PackagePath": "staticwebassets\\build\\less\\table.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\timeline.less",
+      "PackagePath": "staticwebassets\\build\\less\\timeline.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\treeview.less",
+      "PackagePath": "staticwebassets\\build\\less\\treeview.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\users-list.less",
+      "PackagePath": "staticwebassets\\build\\less\\users-list.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\less\\variables.less",
+      "PackagePath": "staticwebassets\\build\\less\\variables.less"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\AdminLTE.css",
+      "PackagePath": "staticwebassets\\dist\\css\\AdminLTE.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\AdminLTE.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\AdminLTE.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\adminlte.css.map",
+      "PackagePath": "staticwebassets\\dist\\css\\adminlte.css.map"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\adminlte.min.css.map",
+      "PackagePath": "staticwebassets\\dist\\css\\adminlte.min.css.map"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\alt\\AdminLTE-bootstrap-social.css",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\AdminLTE-bootstrap-social.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\alt\\AdminLTE-bootstrap-social.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\AdminLTE-bootstrap-social.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\alt\\AdminLTE-fullcalendar.css",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\AdminLTE-fullcalendar.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\alt\\AdminLTE-fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\AdminLTE-fullcalendar.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\alt\\AdminLTE-select2.css",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\AdminLTE-select2.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\alt\\AdminLTE-select2.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\AdminLTE-select2.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\alt\\AdminLTE-without-plugins.css",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\AdminLTE-without-plugins.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\alt\\AdminLTE-without-plugins.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\alt\\AdminLTE-without-plugins.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\skins\\_all-skins.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skins\\_all-skins.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\skins\\_all-skins.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skins\\_all-skins.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\skins\\skin-black-light.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skins\\skin-black-light.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\skins\\skin-black-light.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skins\\skin-black-light.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\skins\\skin-black.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skins\\skin-black.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\skins\\skin-black.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skins\\skin-black.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\skins\\skin-blue-light.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skins\\skin-blue-light.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\skins\\skin-blue-light.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skins\\skin-blue-light.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\skins\\skin-blue.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skins\\skin-blue.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\skins\\skin-blue.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skins\\skin-blue.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\skins\\skin-green-light.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skins\\skin-green-light.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\skins\\skin-green-light.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skins\\skin-green-light.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\skins\\skin-green.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skins\\skin-green.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\skins\\skin-green.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skins\\skin-green.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\skins\\skin-purple-light.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skins\\skin-purple-light.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\skins\\skin-purple-light.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skins\\skin-purple-light.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\skins\\skin-purple.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skins\\skin-purple.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\skins\\skin-purple.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skins\\skin-purple.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\skins\\skin-red-light.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skins\\skin-red-light.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\skins\\skin-red-light.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skins\\skin-red-light.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\skins\\skin-red.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skins\\skin-red.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\skins\\skin-red.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skins\\skin-red.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\skins\\skin-yellow-light.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skins\\skin-yellow-light.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\skins\\skin-yellow-light.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skins\\skin-yellow-light.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\skins\\skin-yellow.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skins\\skin-yellow.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\css\\skins\\skin-yellow.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\skins\\skin-yellow.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\avatar.png",
+      "PackagePath": "staticwebassets\\dist\\img\\avatar.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\avatar04.png",
+      "PackagePath": "staticwebassets\\dist\\img\\avatar04.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\avatar2.png",
+      "PackagePath": "staticwebassets\\dist\\img\\avatar2.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\avatar3.png",
+      "PackagePath": "staticwebassets\\dist\\img\\avatar3.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\avatar5.png",
+      "PackagePath": "staticwebassets\\dist\\img\\avatar5.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\boxed-bg.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\boxed-bg.jpg"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\boxed-bg.png",
+      "PackagePath": "staticwebassets\\dist\\img\\boxed-bg.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\credit\\american-express.png",
+      "PackagePath": "staticwebassets\\dist\\img\\credit\\american-express.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\credit\\cirrus.png",
+      "PackagePath": "staticwebassets\\dist\\img\\credit\\cirrus.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\credit\\mastercard.png",
+      "PackagePath": "staticwebassets\\dist\\img\\credit\\mastercard.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\credit\\mestro.png",
+      "PackagePath": "staticwebassets\\dist\\img\\credit\\mestro.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\credit\\paypal.png",
+      "PackagePath": "staticwebassets\\dist\\img\\credit\\paypal.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\credit\\paypal2.png",
+      "PackagePath": "staticwebassets\\dist\\img\\credit\\paypal2.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\credit\\visa.png",
+      "PackagePath": "staticwebassets\\dist\\img\\credit\\visa.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\default-50x50.gif",
+      "PackagePath": "staticwebassets\\dist\\img\\default-50x50.gif"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\icons.png",
+      "PackagePath": "staticwebassets\\dist\\img\\icons.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\photo1.png",
+      "PackagePath": "staticwebassets\\dist\\img\\photo1.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\photo2.png",
+      "PackagePath": "staticwebassets\\dist\\img\\photo2.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\photo3.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\photo3.jpg"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\photo4.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\photo4.jpg"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\user1-128x128.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\user1-128x128.jpg"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\user2-160x160.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\user2-160x160.jpg"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\user3-128x128.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\user3-128x128.jpg"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\user4-128x128.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\user4-128x128.jpg"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\user5-128x128.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\user5-128x128.jpg"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\user6-128x128.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\user6-128x128.jpg"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\user7-128x128.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\user7-128x128.jpg"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\img\\user8-128x128.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\user8-128x128.jpg"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\js\\adminlte.js",
+      "PackagePath": "staticwebassets\\dist\\js\\adminlte.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\js\\adminlte.min.js",
+      "PackagePath": "staticwebassets\\dist\\js\\adminlte.min.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\js\\demo.js",
+      "PackagePath": "staticwebassets\\dist\\js\\demo.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\js\\pages\\dashboard.js",
+      "PackagePath": "staticwebassets\\dist\\js\\pages\\dashboard.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\dist\\js\\pages\\dashboard2.js",
+      "PackagePath": "staticwebassets\\dist\\js\\pages\\dashboard2.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\bootstrap-slider\\bootstrap-slider.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap-slider\\bootstrap-slider.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\bootstrap-slider\\slider.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap-slider\\slider.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\bootstrap-wysihtml5\\bootstrap3-wysihtml5.all.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap-wysihtml5\\bootstrap3-wysihtml5.all.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\bootstrap-wysihtml5\\bootstrap3-wysihtml5.all.min.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap-wysihtml5\\bootstrap3-wysihtml5.all.min.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\bootstrap-wysihtml5\\bootstrap3-wysihtml5.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap-wysihtml5\\bootstrap3-wysihtml5.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\bootstrap-wysihtml5\\bootstrap3-wysihtml5.min.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap-wysihtml5\\bootstrap3-wysihtml5.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\all.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\all.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\_all.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\_all.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\aero.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\aero.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\aero.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\aero.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\aero@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\aero@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\blue.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\blue.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\blue.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\blue.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\blue@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\blue@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\flat.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\flat.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\flat.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\flat.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\flat@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\flat@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\green.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\green.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\green.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\green.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\green@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\green@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\grey.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\grey.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\grey.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\grey.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\grey@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\grey@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\orange.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\orange.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\orange.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\orange.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\orange@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\orange@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\pink.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\pink.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\pink.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\pink.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\pink@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\pink@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\purple.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\purple.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\purple.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\purple.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\purple@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\purple@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\red.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\red.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\red.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\red.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\red@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\red@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\yellow.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\yellow.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\yellow.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\yellow.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\flat\\yellow@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\flat\\yellow@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\futurico\\futurico.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\futurico\\futurico.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\futurico\\futurico.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\futurico\\futurico.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\futurico\\futurico@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\futurico\\futurico@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\icheck.js",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\icheck.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\icheck.min.js",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\icheck.min.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\line\\_all.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\line\\_all.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\line\\aero.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\line\\aero.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\line\\blue.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\line\\blue.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\line\\green.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\line\\green.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\line\\grey.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\line\\grey.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\line\\line.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\line\\line.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\line\\line.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\line\\line.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\line\\line@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\line\\line@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\line\\orange.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\line\\orange.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\line\\pink.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\line\\pink.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\line\\purple.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\line\\purple.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\line\\red.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\line\\red.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\line\\yellow.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\line\\yellow.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\_all.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\_all.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\aero.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\aero.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\aero.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\aero.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\aero@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\aero@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\blue.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\blue.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\blue.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\blue.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\blue@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\blue@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\green.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\green.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\green.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\green.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\green@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\green@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\grey.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\grey.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\grey.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\grey.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\grey@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\grey@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\minimal.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\minimal.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\minimal.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\minimal.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\minimal@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\minimal@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\orange.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\orange.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\orange.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\orange.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\orange@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\orange@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\pink.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\pink.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\pink.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\pink.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\pink@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\pink@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\purple.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\purple.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\purple.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\purple.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\purple@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\purple@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\red.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\red.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\red.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\red.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\red@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\red@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\yellow.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\yellow.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\yellow.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\yellow.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\minimal\\yellow@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\minimal\\yellow@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\polaris\\polaris.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\polaris\\polaris.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\polaris\\polaris.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\polaris\\polaris.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\polaris\\polaris@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\polaris\\polaris@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\_all.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\_all.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\aero.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\aero.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\aero.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\aero.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\aero@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\aero@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\blue.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\blue.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\blue.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\blue.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\blue@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\blue@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\green.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\green.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\green.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\green.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\green@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\green@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\grey.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\grey.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\grey.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\grey.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\grey@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\grey@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\orange.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\orange.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\orange.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\orange.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\orange@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\orange@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\pink.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\pink.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\pink.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\pink.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\pink@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\pink@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\purple.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\purple.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\purple.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\purple.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\purple@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\purple@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\red.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\red.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\red.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\red.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\red@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\red@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\square.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\square.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\square.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\square.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\square@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\square@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\yellow.css",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\yellow.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\yellow.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\yellow.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\iCheck\\square\\yellow@2x.png",
+      "PackagePath": "staticwebassets\\plugins\\iCheck\\square\\yellow@2x.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\input-mask\\jquery.inputmask.date.extensions.js",
+      "PackagePath": "staticwebassets\\plugins\\input-mask\\jquery.inputmask.date.extensions.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\input-mask\\jquery.inputmask.extensions.js",
+      "PackagePath": "staticwebassets\\plugins\\input-mask\\jquery.inputmask.extensions.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\input-mask\\jquery.inputmask.js",
+      "PackagePath": "staticwebassets\\plugins\\input-mask\\jquery.inputmask.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\input-mask\\jquery.inputmask.numeric.extensions.js",
+      "PackagePath": "staticwebassets\\plugins\\input-mask\\jquery.inputmask.numeric.extensions.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\input-mask\\jquery.inputmask.phone.extensions.js",
+      "PackagePath": "staticwebassets\\plugins\\input-mask\\jquery.inputmask.phone.extensions.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\input-mask\\jquery.inputmask.regex.extensions.js",
+      "PackagePath": "staticwebassets\\plugins\\input-mask\\jquery.inputmask.regex.extensions.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\input-mask\\phone-codes\\phone-be.json",
+      "PackagePath": "staticwebassets\\plugins\\input-mask\\phone-codes\\phone-be.json"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\input-mask\\phone-codes\\phone-codes.json",
+      "PackagePath": "staticwebassets\\plugins\\input-mask\\phone-codes\\phone-codes.json"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\input-mask\\phone-codes\\readme.txt",
+      "PackagePath": "staticwebassets\\plugins\\input-mask\\phone-codes\\readme.txt"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\jQueryUI\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\plugins\\jQueryUI\\jquery-ui.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\jQueryUI\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jQueryUI\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\jvectormap\\jquery-jvectormap-1.2.2.css",
+      "PackagePath": "staticwebassets\\plugins\\jvectormap\\jquery-jvectormap-1.2.2.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\jvectormap\\jquery-jvectormap-1.2.2.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jvectormap\\jquery-jvectormap-1.2.2.min.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\jvectormap\\jquery-jvectormap-usa-en.js",
+      "PackagePath": "staticwebassets\\plugins\\jvectormap\\jquery-jvectormap-usa-en.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\jvectormap\\jquery-jvectormap-world-mill-en.js",
+      "PackagePath": "staticwebassets\\plugins\\jvectormap\\jquery-jvectormap-world-mill-en.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\pace\\pace.css",
+      "PackagePath": "staticwebassets\\plugins\\pace\\pace.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\pace\\pace.js",
+      "PackagePath": "staticwebassets\\plugins\\pace\\pace.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\pace\\pace.min.css",
+      "PackagePath": "staticwebassets\\plugins\\pace\\pace.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\pace\\pace.min.js",
+      "PackagePath": "staticwebassets\\plugins\\pace\\pace.min.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\timepicker\\bootstrap-timepicker.css",
+      "PackagePath": "staticwebassets\\plugins\\timepicker\\bootstrap-timepicker.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\timepicker\\bootstrap-timepicker.js",
+      "PackagePath": "staticwebassets\\plugins\\timepicker\\bootstrap-timepicker.js"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\timepicker\\bootstrap-timepicker.min.css",
+      "PackagePath": "staticwebassets\\plugins\\timepicker\\bootstrap-timepicker.min.css"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\plugins\\timepicker\\bootstrap-timepicker.min.js",
+      "PackagePath": "staticwebassets\\plugins\\timepicker\\bootstrap-timepicker.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.InventoryManagement.Presentation.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.InventoryManagement.Presentation.props",
+      "PackagePath": "build\\InventoryManagement.Presentation.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.InventoryManagement.Presentation.props",
+      "PackagePath": "buildMultiTargeting\\InventoryManagement.Presentation.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.InventoryManagement.Presentation.props",
+      "PackagePath": "buildTransitive\\InventoryManagement.Presentation.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

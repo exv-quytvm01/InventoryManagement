@@ -1,0 +1,42 @@
+﻿@{
+    Layout = "/Views/Shared/_LayoutLogin.cshtml";
+    @using InventoryManagement.Application.Dto.Identity
+}
+
+@model AuthRequest;
+
+<div class="login-box-body">
+    <p class="login-box-msg">Sign in to start your session</p>
+
+    <form asp-action="Login" method="post">
+        @Html.AntiForgeryToken()
+        <div class="form-group has-feedback">
+            <input type="text" class="form-control" placeholder="Email Or Username" asp-for="UsernameOrEmail"/>
+            <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+        </div>
+        <div class="form-group has-feedback">
+            <input type="password" class="form-control" placeholder="Password" asp-for="Password">
+            <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+        </div>
+        @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+        {
+            <div class="alert alert-danger" role="alert">
+                <p class="login-box-msg bg-danger">@ViewBag.ErrorMessage</p>
+            </div>
+        }
+        <div class="row">
+            <div class="col-xs-8">
+            </div>
+            <!-- /.col -->
+            <div class="col-xs-4">
+                <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
+            </div>
+            <!-- /.col -->
+        </div>
+    </form>
+
+    
+    <!-- /.social-auth-links -->
+    <a asp-controller="Account" asp-action="Register" class="text-center">Register a new membership</a>
+
+</div>

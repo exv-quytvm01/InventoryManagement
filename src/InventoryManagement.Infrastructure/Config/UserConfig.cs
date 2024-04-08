@@ -19,23 +19,23 @@ namespace InventoryManagement.Infrastructure.Config
                  new Employee
                  {
                      Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
-                     Email = "admin@localhost.com",
-                     NormalizedEmail = "ADMIN@LOCALHOST.COM",
+                     Email = "admin@gmail.com",
+                     NormalizedEmail = "ADMIN@GMAIL.COM",
                      EmployeeName = "System Admin",
-                     UserName = "admin@localhost.com",
-                     NormalizedUserName = "ADMIN@LOCALHOST.COM",
-                     PasswordHash = hasher.HashPassword(null, "P@ssword1"),
+                     UserName = "Admin01",
+                     NormalizedUserName = "ADMIN01COM",
+                     PasswordHash = hasher.HashPassword(null, "Ps@12345678"),
                      EmailConfirmed = true
                  },
                  new Employee
                  {
                      Id = "9e224968-33e4-4652-b7b7-8574d048cdb9",
-                     Email = "user@localhost.com",
-                     NormalizedEmail = "USER@LOCALHOST.COM",
+                     Email = "user@gmail.com",
+                     NormalizedEmail = "USER@GMAIL.COM",
                      EmployeeName = "System User",
-                     UserName = "user@localhost.com",
-                     NormalizedUserName = "USER@LOCALHOST.COM",
-                     PasswordHash = hasher.HashPassword(null, "P@ssword1"),
+                     UserName = "User01",
+                     NormalizedUserName = "USER01COM",
+                     PasswordHash = hasher.HashPassword(null, "Ps@12345678"),
                      EmailConfirmed = true
                  }
             );

@@ -168,39 +168,39 @@ namespace InventoryManagement.Infrastructure.Migrations
                         {
                             Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "13fee956-4350-4ce9-9921-3093be2c61ba",
+                            ConcurrencyStamp = "4cedf25f-2419-4fd4-a678-d72db76a00b6",
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Email = "admin@localhost.com",
+                            Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             EmployeeName = "System Admin",
                             LastModified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             LockoutEnabled = false,
-                            NormalizedEmail = "ADMIN@LOCALHOST.COM",
-                            NormalizedUserName = "ADMIN@LOCALHOST.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEH3xeyhAhc/VHExMd3XCsuRuJF9b9yzc8C6iUQrQ6u3PZBLi0Bx4+Wtkmi6M5DWOTQ==",
+                            NormalizedEmail = "ADMIN@GMAIL.COM",
+                            NormalizedUserName = "ADMIN01COM",
+                            PasswordHash = "AQAAAAIAAYagAAAAEB0SZtvSUExnIinlx8phBKeqoqPrJVMS6IwgT+AHpZJp2ZSbuhfoxcaoTenaL/eRnw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "52229ba0-1074-4fa6-8fb5-b67d1c043eb9",
+                            SecurityStamp = "23659042-defc-4d2d-8a6d-00256e244a32",
                             TwoFactorEnabled = false,
-                            UserName = "admin@localhost.com"
+                            UserName = "Admin01"
                         },
                         new
                         {
                             Id = "9e224968-33e4-4652-b7b7-8574d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "8698caaf-ffc9-4af5-8de8-e540db11e685",
+                            ConcurrencyStamp = "b218bd8d-0066-426c-9db6-4da25ac33ef0",
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Email = "user@localhost.com",
+                            Email = "user@gmail.com",
                             EmailConfirmed = true,
                             EmployeeName = "System User",
                             LastModified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             LockoutEnabled = false,
-                            NormalizedEmail = "USER@LOCALHOST.COM",
-                            NormalizedUserName = "USER@LOCALHOST.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEAZULcj4W39BtaxVQAIGJdriCuSMR7ihj412dMiK79W8v8ATVPuBNTIrqAssvlfEog==",
+                            NormalizedEmail = "USER@GMAIL.COM",
+                            NormalizedUserName = "USER01COM",
+                            PasswordHash = "AQAAAAIAAYagAAAAEIsV2LYLeSNzFyuo3xPLArztrgkNxogQ8AvFKptdpqdSb4DlFVaC5yok+3K10/Ud9Q==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "ed9fa040-4920-4373-b662-1c87a543c86e",
+                            SecurityStamp = "75c048a8-6e08-4894-82b3-9fa0d946d147",
                             TwoFactorEnabled = false,
-                            UserName = "user@localhost.com"
+                            UserName = "User01"
                         });
                 });
 

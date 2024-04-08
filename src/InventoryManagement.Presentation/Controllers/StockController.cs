@@ -1,8 +1,13 @@
-﻿using InventoryManagement.Application.Featurers.Products.Queries.GetProductsByPage;
+﻿using InventoryManagement.Application.Dto;
+using InventoryManagement.Application.Dto.Categories;
+using InventoryManagement.Application.Featurers.Categories.Commands.Create;
+using InventoryManagement.Application.Featurers.Products.Queries.GetProducts;
+using InventoryManagement.Application.Featurers.Stocks.Command.Create;
 using InventoryManagement.Application.Featurers.Stocks.Queries.GetStocksByPage;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace InventoryManagement.Presentation.Controllers
 {
@@ -40,6 +45,23 @@ namespace InventoryManagement.Presentation.Controllers
                 currentFilter = CurrentFilter
             });
             return View(stocks);
+        }
+
+        public async Task<ActionResult> Create()
+        {
+            var command = new GetProductsQuery();
+            var response = await _mediator.Send(command);
+            ViewData["ProductId"] = new SelectList(response, "Id", "Title");
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<ActionResult> Create([FromForm] StockDto stock)
+        {
+            var command = new CreateStockCommand { Stock = stock };
+            var response = await _mediator.Send(command);
+            return RedirectToAction("Index", "Stock");
         }
     }
 }

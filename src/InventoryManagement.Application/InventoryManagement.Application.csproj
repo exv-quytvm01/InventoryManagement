@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <Folder Include="Featurers\SaleOrderDetails\Commands\" />
+    <Folder Include="Featurers\Stocks\Command\Update\" />
   </ItemGroup>
 
 </Project>

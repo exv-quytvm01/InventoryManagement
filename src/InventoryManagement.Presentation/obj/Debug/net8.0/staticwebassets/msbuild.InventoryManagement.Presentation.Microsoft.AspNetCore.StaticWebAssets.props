@@ -3424,6 +3424,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\1bb6933a-fb43-4df9-a430-1126955f9ec1_images.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\255dd7de-ca70-4473-9370-62cc5511e456_png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>InventoryManagement.Presentation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/InventoryManagement.Presentation</BasePath>
+      <RelativePath>Images/255dd7de-ca70-4473-9370-62cc5511e456_png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\255dd7de-ca70-4473-9370-62cc5511e456_png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\2932acad-34b2-4128-a6c3-62ca68fac1b2_z4453755774140_f898ce4c17a2baaf3b5a167a9c92c291.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>InventoryManagement.Presentation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/InventoryManagement.Presentation</BasePath>
+      <RelativePath>Images/2932acad-34b2-4128-a6c3-62ca68fac1b2_z4453755774140_f898ce4c17a2baaf3b5a167a9c92c291.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\2932acad-34b2-4128-a6c3-62ca68fac1b2_z4453755774140_f898ce4c17a2baaf3b5a167a9c92c291.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\35ceb518-badd-4b88-a638-b99f8ca345b2_png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png))">
       <SourceType>Package</SourceType>
       <SourceId>InventoryManagement.Presentation</SourceId>
@@ -3456,6 +3488,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\4cd07041-8f77-4461-b13e-59407d766c00_png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\53d8a67a-5abd-4634-89f8-460fb7bbcc56_z4453755774140_f898ce4c17a2baaf3b5a167a9c92c291.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>InventoryManagement.Presentation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/InventoryManagement.Presentation</BasePath>
+      <RelativePath>Images/53d8a67a-5abd-4634-89f8-460fb7bbcc56_z4453755774140_f898ce4c17a2baaf3b5a167a9c92c291.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\53d8a67a-5abd-4634-89f8-460fb7bbcc56_z4453755774140_f898ce4c17a2baaf3b5a167a9c92c291.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\5ed8900c-a163-4b59-bbab-1954d55d96e7_images.png))">
       <SourceType>Package</SourceType>
       <SourceId>InventoryManagement.Presentation</SourceId>
@@ -3471,6 +3519,54 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\5ed8900c-a163-4b59-bbab-1954d55d96e7_images.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\7284f12e-ec78-4cda-b03c-58843821df1f_user.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>InventoryManagement.Presentation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/InventoryManagement.Presentation</BasePath>
+      <RelativePath>Images/7284f12e-ec78-4cda-b03c-58843821df1f_user.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\7284f12e-ec78-4cda-b03c-58843821df1f_user.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\878a9283-c400-4e5b-a0eb-9892b7810e46_z4453755774140_f898ce4c17a2baaf3b5a167a9c92c291.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>InventoryManagement.Presentation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/InventoryManagement.Presentation</BasePath>
+      <RelativePath>Images/878a9283-c400-4e5b-a0eb-9892b7810e46_z4453755774140_f898ce4c17a2baaf3b5a167a9c92c291.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\878a9283-c400-4e5b-a0eb-9892b7810e46_z4453755774140_f898ce4c17a2baaf3b5a167a9c92c291.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\a769ac36-85b2-44e6-9487-7184456831cd_png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>InventoryManagement.Presentation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/InventoryManagement.Presentation</BasePath>
+      <RelativePath>Images/a769ac36-85b2-44e6-9487-7184456831cd_png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\a769ac36-85b2-44e6-9487-7184456831cd_png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\ae1d6b2c-9019-4664-a1b1-e4829c553f07_user.png))">
       <SourceType>Package</SourceType>

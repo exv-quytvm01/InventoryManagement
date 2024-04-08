@@ -36,15 +36,25 @@ namespace InventoryManagement.Infrastructure.Repositories
             return items;
         }
 
-        public async Task<bool> CreateUser(CreateEmployeeDto employee,string Path, string RoleName)
+        public async Task<bool> CreateUser(CreateEmployeeDto employee, string Path)
         {
+            
             var existingUser = await _userManager.FindByNameAsync(employee.UserName);
-
             if (existingUser != null)
             {
+                _logger.LogError($"Username '{employee.UserName}' already exists.");
                 throw new Exception($"Username '{employee.UserName}' already exists.");
-
             }
+
+            
+            var existingEmail = await _userManager.FindByEmailAsync(employee.Email);
+            if (existingEmail != null)
+            {
+                _logger.LogError($"Email '{employee.Email}' already exists.");
+                throw new Exception($"Email '{employee.Email}' already exists.");
+            }
+
+            
             var user = new Employee
             {
                 EmployeeCode = employee.EmployeeCode,
@@ -55,27 +65,25 @@ namespace InventoryManagement.Infrastructure.Repositories
                 CCCD = employee.CCCD,
                 Image = Path,
                 Position = employee.Position,
-                EmailConfirmed = true,
-                PhoneNumberConfirmed = true,
+                EmailConfirmed = true
             };
-            var existingEmail = await _userManager.FindByEmailAsync(employee.Email);
-            if (existingEmail == null)
-            {
-                var result = await _userManager.CreateAsync(user, employee.Password);
 
-                if (result.Succeeded)
-                {
-                    await _userManager.AddToRoleAsync(user, RoleName);
-                    return true;
-                }
-                else
-                {
-                    var errors = string.Join(", ", result.Errors.Select(e => e.Description));
-                    _logger.LogError($"Registration failed: {errors}");
-                    throw new Exception($"Registration failed: {errors}");
-                }
+            
+            var result = await _userManager.CreateAsync(user, employee.Password);
+            var role = _roleManager.FindByIdAsync(employee.RoleId).Result;
+            if (result.Succeeded)
+            {
+                
+                await _userManager.AddToRoleAsync(user, role.NormalizedName);
+                return true;
             }
-            return false;
+            else
+            {
+                
+                var errors = string.Join(", ", result.Errors.Select(e => e.Description));
+                _logger.LogError($"User creation failed: {errors}");
+                throw new Exception($"User creation failed: {errors}");
+            }
         }
 
         public async Task<Employee> GetById(string id)
@@ -95,27 +103,6 @@ namespace InventoryManagement.Infrastructure.Repositories
             return roles;
         }
 
-        public async Task<bool> LockUser(string userId)
-        {
-            var user = await _userManager.FindByIdAsync(userId);
-            if (user == null)
-            {
-                
-                return false;
-            }
-
-           
-            if (await _userManager.IsLockedOutAsync(user))
-            {
-               
-                return true;
-            }
-
-            
-            var result = await _userManager.SetLockoutEndDateAsync(user, DateTimeOffset.MaxValue);
-
-            return result.Succeeded;
-        }
 
         public async Task<AuthResponse> Login(AuthRequest request)
         {
@@ -194,27 +181,7 @@ namespace InventoryManagement.Infrastructure.Repositories
             }
         }
 
-        public async Task<bool> UnlockUser(string userId)
-        {
-            var user = await _userManager.FindByIdAsync(userId);
-            if (user == null)
-            {
-                
-                return false;
-            }
-
-            
-            if (!await _userManager.IsLockedOutAsync(user))
-            {
-                
-                return true;
-            }
-
-            
-            var result = await _userManager.SetLockoutEndDateAsync(user, DateTimeOffset.UtcNow);
-
-            return result.Succeeded;
-        }
+        
 
         public async Task<bool> UpdateUser(Employee employee)
         {

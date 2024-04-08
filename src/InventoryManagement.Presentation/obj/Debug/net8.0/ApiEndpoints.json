@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "ContainingType": "InventoryManagement.Presentation.Controllers.ValuesController",
+    "Method": "Create",
+    "RelativePath": "api/Values/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "InventoryManagement.Application.Dto.Identity.ViewAddEmployee",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

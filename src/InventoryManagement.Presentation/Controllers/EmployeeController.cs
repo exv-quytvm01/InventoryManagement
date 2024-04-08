@@ -3,7 +3,6 @@ using InventoryManagement.Application.Featurers.Identities.Create;
 using InventoryManagement.Application.Featurers.Identities.GetById;
 using InventoryManagement.Application.Featurers.Identities.GetRoles;
 using InventoryManagement.Application.Featurers.Identities.GetUsersByPage;
-using InventoryManagement.Application.Featurers.Identities.Lock;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -49,21 +48,19 @@ namespace InventoryManagement.Presentation.Controllers
         {
             var command = new GetRoles();
             var response = await _mediator.Send(command);
-            ViewData["RoleId"] = new SelectList(response, "NormalizedName", "Name");
+            ViewData["RoleId"] = new SelectList(response, "Id", "Name");
             return View();
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Create(CreateEmployeeDto employeeDto,
-             IFormFile? Image)
+        public async Task<ActionResult> Create([FromForm] ViewAddEmployee request)
         {
             if (ModelState.IsValid)
             {
-                var command = new CreateUserCommand()
+                var command = new CreateEmployeeCommand()
                 {
-                    employee = employeeDto,
-                    Image = Image
+                    viewadd = request
                 };
                 var response = await _mediator.Send(command);
                 if (response)
@@ -75,7 +72,7 @@ namespace InventoryManagement.Presentation.Controllers
                     ModelState.AddModelError(string.Empty, "Failed to create user.");
                 }
             }
-            return View(employeeDto);
+            return View(request);
         }
 
         public async Task<IActionResult> Detail(string Id)

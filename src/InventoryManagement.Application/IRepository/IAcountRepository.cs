@@ -13,13 +13,11 @@ namespace InventoryManagement.Application.IRepository
     {
         Task<AuthResponse> Login(AuthRequest request);
         Task<RegistrationResponse> Register(RegistrationRequest request);
-        Task<bool> CreateUser(CreateEmployeeDto employee, string Path, string RoleName);
+        Task<bool> CreateUser(CreateEmployeeDto employee, string Path);
         Task<bool> UpdateUser(Employee employee);
         Task<List<IdentityRole>> ListRoles();
         Task<IReadOnlyList<Employee>> CreateAsync(IQueryable<Employee> source, int pageIndex, int pageSize);
         IQueryable<Employee> getListByCondition();
         Task<Employee> GetById(string id);
-        Task<bool> UnlockUser(string userId);
-        Task<bool> LockUser(string userId);
     }
 }

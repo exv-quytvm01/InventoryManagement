@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\Images\\ae1d6b2c-9019-4664-a1b1-e4829c553f07_user.png"
     },
     {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\f09eefbc-df81-4e2d-aaab-34bdb0522c67_z4453755774140_f898ce4c17a2baaf3b5a167a9c92c291.jpg",
+      "PackagePath": "staticwebassets\\Images\\f09eefbc-df81-4e2d-aaab-34bdb0522c67_z4453755774140_f898ce4c17a2baaf3b5a167a9c92c291.jpg"
+    },
+    {
       "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\.csscomb.json",
       "PackagePath": "staticwebassets\\build\\bootstrap-less\\.csscomb.json"
     },

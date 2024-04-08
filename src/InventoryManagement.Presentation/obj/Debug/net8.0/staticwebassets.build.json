@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Jf4l6XqZVUHhl9Ew8jZEKaiQucG2C7CAOfkjOtGVeLI=",
+  "Hash": "m7niAbaOl6krWadzcy5RbTfxrK7S713K0L6tPJ6cEYg=",
   "Source": "InventoryManagement.Presentation",
   "BasePath": "_content/InventoryManagement.Presentation",
   "Mode": "Default",
@@ -5297,6 +5297,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\ae1d6b2c-9019-4664-a1b1-e4829c553f07_user.png"
+    },
+    {
+      "Identity": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\f09eefbc-df81-4e2d-aaab-34bdb0522c67_z4453755774140_f898ce4c17a2baaf3b5a167a9c92c291.jpg",
+      "SourceId": "InventoryManagement.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\",
+      "BasePath": "_content/InventoryManagement.Presentation",
+      "RelativePath": "Images/f09eefbc-df81-4e2d-aaab-34bdb0522c67_z4453755774140_f898ce4c17a2baaf3b5a167a9c92c291.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\f09eefbc-df81-4e2d-aaab-34bdb0522c67_z4453755774140_f898ce4c17a2baaf3b5a167a9c92c291.jpg"
     },
     {
       "Identity": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\js\\site.js",

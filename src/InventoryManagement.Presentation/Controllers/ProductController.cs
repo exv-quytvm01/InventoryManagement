@@ -20,7 +20,7 @@ namespace InventoryManagement.Presentation.Controllers
         }
 
         public async Task<IActionResult> Index(string SearchString = null, string SortOrder = "date_desc",
-            int PageNumber = 1, int PageSize = 20, string CurrentFilter = null)
+            int PageNumber = 1, int PageSize = 10, string CurrentFilter = null)
         {
             ViewData["CurrentSort"] = SortOrder;
             //Sorting

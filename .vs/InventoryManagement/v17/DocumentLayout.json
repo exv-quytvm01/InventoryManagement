@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "D:\\Nash\\DemoExample\\InventoryManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22999B8D-17DF-4847-8FC0-4F5ADCDFE79C}|src\\InventoryManagement.Presentation\\InventoryManagement.Presentation.csproj|d:\\nash\\demoexample\\inventorymanagement\\src\\inventorymanagement.presentation\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22999B8D-17DF-4847-8FC0-4F5ADCDFE79C}|src\\InventoryManagement.Presentation\\InventoryManagement.Presentation.csproj|solutionrelative:src\\inventorymanagement.presentation\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22999B8D-17DF-4847-8FC0-4F5ADCDFE79C}|src\\InventoryManagement.Presentation\\InventoryManagement.Presentation.csproj|d:\\nash\\demoexample\\inventorymanagement\\src\\inventorymanagement.presentation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22999B8D-17DF-4847-8FC0-4F5ADCDFE79C}|src\\InventoryManagement.Presentation\\InventoryManagement.Presentation.csproj|solutionrelative:src\\inventorymanagement.presentation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22999B8D-17DF-4847-8FC0-4F5ADCDFE79C}|src\\InventoryManagement.Presentation\\InventoryManagement.Presentation.csproj|d:\\nash\\demoexample\\inventorymanagement\\src\\inventorymanagement.presentation\\views\\stock\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22999B8D-17DF-4847-8FC0-4F5ADCDFE79C}|src\\InventoryManagement.Presentation\\InventoryManagement.Presentation.csproj|solutionrelative:src\\inventorymanagement.presentation\\views\\stock\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{22999B8D-17DF-4847-8FC0-4F5ADCDFE79C}|src\\InventoryManagement.Presentation\\InventoryManagement.Presentation.csproj|d:\\nash\\demoexample\\inventorymanagement\\src\\inventorymanagement.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22999B8D-17DF-4847-8FC0-4F5ADCDFE79C}|src\\InventoryManagement.Presentation\\InventoryManagement.Presentation.csproj|solutionrelative:src\\inventorymanagement.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22999B8D-17DF-4847-8FC0-4F5ADCDFE79C}|src\\InventoryManagement.Presentation\\InventoryManagement.Presentation.csproj|d:\\nash\\demoexample\\inventorymanagement\\src\\inventorymanagement.presentation\\views\\stock\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22999B8D-17DF-4847-8FC0-4F5ADCDFE79C}|src\\InventoryManagement.Presentation\\InventoryManagement.Presentation.csproj|solutionrelative:src\\inventorymanagement.presentation\\views\\stock\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{22999B8D-17DF-4847-8FC0-4F5ADCDFE79C}|src\\InventoryManagement.Presentation\\InventoryManagement.Presentation.csproj|D:\\Nash\\DemoExample\\InventoryManagement\\src\\inventorymanagement.presentation\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22999B8D-17DF-4847-8FC0-4F5ADCDFE79C}|src\\InventoryManagement.Presentation\\InventoryManagement.Presentation.csproj|solutionrelative:src\\inventorymanagement.presentation\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22999B8D-17DF-4847-8FC0-4F5ADCDFE79C}|src\\InventoryManagement.Presentation\\InventoryManagement.Presentation.csproj|d:\\nash\\demoexample\\inventorymanagement\\src\\inventorymanagement.presentation\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22999B8D-17DF-4847-8FC0-4F5ADCDFE79C}|src\\InventoryManagement.Presentation\\InventoryManagement.Presentation.csproj|solutionrelative:src\\inventorymanagement.presentation\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF8AFE63-7B9C-4227-933D-9B89963E79C9}|src\\InventoryManagement.Application\\InventoryManagement.Application.csproj|d:\\nash\\demoexample\\inventorymanagement\\src\\inventorymanagement.application\\dto\\stockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF8AFE63-7B9C-4227-933D-9B89963E79C9}|src\\InventoryManagement.Application\\InventoryManagement.Application.csproj|solutionrelative:src\\inventorymanagement.application\\dto\\stockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF8AFE63-7B9C-4227-933D-9B89963E79C9}|src\\InventoryManagement.Application\\InventoryManagement.Application.csproj|D:\\Nash\\DemoExample\\InventoryManagement\\src\\inventorymanagement.application\\featurers\\products\\queries\\getproductsbypage\\getproductsquerybypagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8AFE63-7B9C-4227-933D-9B89963E79C9}|src\\InventoryManagement.Application\\InventoryManagement.Application.csproj|solutionrelative:src\\inventorymanagement.application\\featurers\\products\\queries\\getproductsbypage\\getproductsquerybypagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,72 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\Views\\Product\\Create.cshtml",
-              "RelativeDocumentMoniker": "src\\InventoryManagement.Presentation\\Views\\Product\\Create.cshtml",
-              "ToolTip": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\Views\\Product\\Create.cshtml",
-              "RelativeToolTip": "src\\InventoryManagement.Presentation\\Views\\Product\\Create.cshtml",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAAD4AAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-08T05:53:28.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StockController.cs",
-              "DocumentMoniker": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\Controllers\\StockController.cs",
-              "RelativeDocumentMoniker": "src\\InventoryManagement.Presentation\\Controllers\\StockController.cs",
-              "ToolTip": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\Controllers\\StockController.cs",
-              "RelativeToolTip": "src\\InventoryManagement.Presentation\\Controllers\\StockController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAADYAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T05:52:15.63Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "src\\InventoryManagement.Presentation\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "src\\InventoryManagement.Presentation\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAEwAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T04:12:47.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\Views\\Stock\\Create.cshtml",
-              "RelativeDocumentMoniker": "src\\InventoryManagement.Presentation\\Views\\Stock\\Create.cshtml",
-              "ToolTip": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\Views\\Stock\\Create.cshtml",
-              "RelativeToolTip": "src\\InventoryManagement.Presentation\\Views\\Stock\\Create.cshtml",
-              "ViewState": "AQIAACAAAAAAAAAAAAAAAC4AAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-08T05:50:39.143Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "src\\InventoryManagement.Presentation\\Program.cs",
+              "ToolTip": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\Program.cs",
+              "RelativeToolTip": "src\\InventoryManagement.Presentation\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T19:23:28.213Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetProductsQueryByPageHandler.cs",
+              "DocumentMoniker": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Application\\Featurers\\Products\\Queries\\GetProductsByPage\\GetProductsQueryByPageHandler.cs",
+              "RelativeDocumentMoniker": "src\\InventoryManagement.Application\\Featurers\\Products\\Queries\\GetProductsByPage\\GetProductsQueryByPageHandler.cs",
+              "ToolTip": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Application\\Featurers\\Products\\Queries\\GetProductsByPage\\GetProductsQueryByPageHandler.cs",
+              "RelativeToolTip": "src\\InventoryManagement.Application\\Featurers\\Products\\Queries\\GetProductsByPage\\GetProductsQueryByPageHandler.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACgAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T18:07:20.616Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\Views\\Stock\\Index.cshtml",
-              "RelativeDocumentMoniker": "src\\InventoryManagement.Presentation\\Views\\Stock\\Index.cshtml",
-              "ToolTip": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\Views\\Stock\\Index.cshtml",
-              "RelativeToolTip": "src\\InventoryManagement.Presentation\\Views\\Stock\\Index.cshtml",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAABsAAAAbAAAA",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "src\\InventoryManagement.Presentation\\Views\\Home\\Edit.cshtml",
+              "ToolTip": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "src\\InventoryManagement.Presentation\\Views\\Home\\Edit.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABkAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-08T05:48:01.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StockDto.cs",
-              "DocumentMoniker": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Application\\Dto\\StockDto.cs",
-              "RelativeDocumentMoniker": "src\\InventoryManagement.Application\\Dto\\StockDto.cs",
-              "ToolTip": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Application\\Dto\\StockDto.cs",
-              "RelativeToolTip": "src\\InventoryManagement.Application\\Dto\\StockDto.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T05:40:50.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T08:23:02.914Z"
             }
           ]
         }

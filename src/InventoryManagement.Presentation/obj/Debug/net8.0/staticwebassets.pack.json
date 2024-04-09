@@ -1,52 +1,176 @@
 {
   "Files": [
     {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\13cec808-c074-4254-8aa3-aeec5305c8fd_images.png",
+      "PackagePath": "staticwebassets\\Images\\13cec808-c074-4254-8aa3-aeec5305c8fd_images.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\17f93f3d-9f82-406b-aa61-3366ebbec236_z4453755774140_f898ce4c17a2baaf3b5a167a9c92c291.jpg",
+      "PackagePath": "staticwebassets\\Images\\17f93f3d-9f82-406b-aa61-3366ebbec236_z4453755774140_f898ce4c17a2baaf3b5a167a9c92c291.jpg"
+    },
+    {
       "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\1bb6933a-fb43-4df9-a430-1126955f9ec1_images.png",
       "PackagePath": "staticwebassets\\Images\\1bb6933a-fb43-4df9-a430-1126955f9ec1_images.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\1f4e19ec-26f6-4bf3-9034-2859e0e16c39_samsung-galaxy-s24-yellow-thumb-600x600.png",
+      "PackagePath": "staticwebassets\\Images\\1f4e19ec-26f6-4bf3-9034-2859e0e16c39_samsung-galaxy-s24-yellow-thumb-600x600.png"
     },
     {
       "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\255dd7de-ca70-4473-9370-62cc5511e456_png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png",
       "PackagePath": "staticwebassets\\Images\\255dd7de-ca70-4473-9370-62cc5511e456_png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png"
     },
     {
-      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\2932acad-34b2-4128-a6c3-62ca68fac1b2_z4453755774140_f898ce4c17a2baaf3b5a167a9c92c291.jpg",
-      "PackagePath": "staticwebassets\\Images\\2932acad-34b2-4128-a6c3-62ca68fac1b2_z4453755774140_f898ce4c17a2baaf3b5a167a9c92c291.jpg"
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\29bbfd24-3d13-4a4c-afe3-40083ca32f98_hp-victus-15-fa1139tx-i5-8y6w3pa-thumb-600x600.jpg",
+      "PackagePath": "staticwebassets\\Images\\29bbfd24-3d13-4a4c-afe3-40083ca32f98_hp-victus-15-fa1139tx-i5-8y6w3pa-thumb-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\2c79be4c-7ac5-4186-a8b2-474bd7a4e52b_realme-c65-purple-thumb-600x600.png",
+      "PackagePath": "staticwebassets\\Images\\2c79be4c-7ac5-4186-a8b2-474bd7a4e52b_realme-c65-purple-thumb-600x600.png"
     },
     {
       "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\35ceb518-badd-4b88-a638-b99f8ca345b2_png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png",
       "PackagePath": "staticwebassets\\Images\\35ceb518-badd-4b88-a638-b99f8ca345b2_png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png"
     },
     {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\43c964bc-2260-47bc-865c-6c75c0e17d52_png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png",
+      "PackagePath": "staticwebassets\\Images\\43c964bc-2260-47bc-865c-6c75c0e17d52_png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png"
+    },
+    {
       "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\4cd07041-8f77-4461-b13e-59407d766c00_png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png",
       "PackagePath": "staticwebassets\\Images\\4cd07041-8f77-4461-b13e-59407d766c00_png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\4d8b61d1-033a-4a2e-b127-9ef993f36af4_1-167f08a5-3dfd-44c3-b1af-40efebbb2c8b.jpg",
+      "PackagePath": "staticwebassets\\Images\\4d8b61d1-033a-4a2e-b127-9ef993f36af4_1-167f08a5-3dfd-44c3-b1af-40efebbb2c8b.jpg"
     },
     {
       "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\53d8a67a-5abd-4634-89f8-460fb7bbcc56_z4453755774140_f898ce4c17a2baaf3b5a167a9c92c291.jpg",
       "PackagePath": "staticwebassets\\Images\\53d8a67a-5abd-4634-89f8-460fb7bbcc56_z4453755774140_f898ce4c17a2baaf3b5a167a9c92c291.jpg"
     },
     {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\5bc62ce2-a3d0-4c06-9c07-8230c62ff9f0_download.jpg",
+      "PackagePath": "staticwebassets\\Images\\5bc62ce2-a3d0-4c06-9c07-8230c62ff9f0_download.jpg"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\5cd7fa61-5f4f-4241-a57e-8ca8b4036379_apple-macbook-air-m2-2022-vang-600x600.jpg",
+      "PackagePath": "staticwebassets\\Images\\5cd7fa61-5f4f-4241-a57e-8ca8b4036379_apple-macbook-air-m2-2022-vang-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\5e9e10e6-b8be-48e7-ab76-71fcd7030acf_pu9vkh8-9uogbn.jpg",
+      "PackagePath": "staticwebassets\\Images\\5e9e10e6-b8be-48e7-ab76-71fcd7030acf_pu9vkh8-9uogbn.jpg"
+    },
+    {
       "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\5ed8900c-a163-4b59-bbab-1954d55d96e7_images.png",
       "PackagePath": "staticwebassets\\Images\\5ed8900c-a163-4b59-bbab-1954d55d96e7_images.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\60e2e67a-63de-4b18-8f85-a760f874448d_may-giat-lg-fv1409s4m-moi-1.jpg",
+      "PackagePath": "staticwebassets\\Images\\60e2e67a-63de-4b18-8f85-a760f874448d_may-giat-lg-fv1409s4m-moi-1.jpg"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\6a440304-936b-4e51-a796-2fcbb3e67f29_macbook-air-m1-2020-gray-600x600.jpg",
+      "PackagePath": "staticwebassets\\Images\\6a440304-936b-4e51-a796-2fcbb3e67f29_macbook-air-m1-2020-gray-600x600.jpg"
     },
     {
       "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\7284f12e-ec78-4cda-b03c-58843821df1f_user.png",
       "PackagePath": "staticwebassets\\Images\\7284f12e-ec78-4cda-b03c-58843821df1f_user.png"
     },
     {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\77ef5176-b425-464d-98b6-67deea3d0034_hp-245-g10-r5-8f155pa-glr-thumb-600x600.jpg",
+      "PackagePath": "staticwebassets\\Images\\77ef5176-b425-464d-98b6-67deea3d0034_hp-245-g10-r5-8f155pa-glr-thumb-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\789a0c76-c0ab-497d-8718-0962a1f05520_images.png",
+      "PackagePath": "staticwebassets\\Images\\789a0c76-c0ab-497d-8718-0962a1f05520_images.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\7f0d85c5-c7d5-4c6c-98cf-3e9238f8f76d_1-f849dccd-69e2-4f12-9429-03e8eb710555.jpg",
+      "PackagePath": "staticwebassets\\Images\\7f0d85c5-c7d5-4c6c-98cf-3e9238f8f76d_1-f849dccd-69e2-4f12-9429-03e8eb710555.jpg"
+    },
+    {
       "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\878a9283-c400-4e5b-a0eb-9892b7810e46_z4453755774140_f898ce4c17a2baaf3b5a167a9c92c291.jpg",
       "PackagePath": "staticwebassets\\Images\\878a9283-c400-4e5b-a0eb-9892b7810e46_z4453755774140_f898ce4c17a2baaf3b5a167a9c92c291.jpg"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\897ecbf6-d565-4050-8176-df764589aebf_9-3-803df4c4-0a99-4b01-be63-1b106f15fd26.jpg",
+      "PackagePath": "staticwebassets\\Images\\897ecbf6-d565-4050-8176-df764589aebf_9-3-803df4c4-0a99-4b01-be63-1b106f15fd26.jpg"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\a3a2edc9-82ee-4d32-b056-f1d8579d0940_download.jpg",
+      "PackagePath": "staticwebassets\\Images\\a3a2edc9-82ee-4d32-b056-f1d8579d0940_download.jpg"
     },
     {
       "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\a769ac36-85b2-44e6-9487-7184456831cd_png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png",
       "PackagePath": "staticwebassets\\Images\\a769ac36-85b2-44e6-9487-7184456831cd_png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png"
     },
     {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\a7eb5b49-41d7-4783-9ce7-4008aa9eb90b_user.png",
+      "PackagePath": "staticwebassets\\Images\\a7eb5b49-41d7-4783-9ce7-4008aa9eb90b_user.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\aa12c7e7-f8e5-4690-a358-ff6e1cdb8720_vitaly-30.jpg",
+      "PackagePath": "staticwebassets\\Images\\aa12c7e7-f8e5-4690-a358-ff6e1cdb8720_vitaly-30.jpg"
+    },
+    {
       "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\ae1d6b2c-9019-4664-a1b1-e4829c553f07_user.png",
       "PackagePath": "staticwebassets\\Images\\ae1d6b2c-9019-4664-a1b1-e4829c553f07_user.png"
     },
     {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\bb654e30-945d-4727-8688-0809ff29187e_mc09is33-q5yxri.jpg",
+      "PackagePath": "staticwebassets\\Images\\bb654e30-945d-4727-8688-0809ff29187e_mc09is33-q5yxri.jpg"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\c21ba9a7-4b47-4e9e-ad37-51f3204cae9b_user.png",
+      "PackagePath": "staticwebassets\\Images\\c21ba9a7-4b47-4e9e-ad37-51f3204cae9b_user.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\d1ec1481-0152-43e1-bef3-f8c054826365_iphone-15-pro-max-blue-thumbnew-600x600.png",
+      "PackagePath": "staticwebassets\\Images\\d1ec1481-0152-43e1-bef3-f8c054826365_iphone-15-pro-max-blue-thumbnew-600x600.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\d68e1607-efd8-4943-a630-4bfbe9816402_asus-tuf-gaming-f15-fx506hf-i5-hn014w-thumb-600x600.jpg",
+      "PackagePath": "staticwebassets\\Images\\d68e1607-efd8-4943-a630-4bfbe9816402_asus-tuf-gaming-f15-fx506hf-i5-hn014w-thumb-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\d9c72d3a-89e3-415d-85ce-31fcdd5bebb9_oppo-reno11-f-timm-thumb-600x600.png",
+      "PackagePath": "staticwebassets\\Images\\d9c72d3a-89e3-415d-85ce-31fcdd5bebb9_oppo-reno11-f-timm-thumb-600x600.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\de13332c-adc0-4fa0-907b-21dbcfd3bfa6_png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png",
+      "PackagePath": "staticwebassets\\Images\\de13332c-adc0-4fa0-907b-21dbcfd3bfa6_png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\e43b24e2-19ee-4e31-b922-a5bc156e5174_636201053900769975_636201044123407300_Sony-PlayStation-4-CUH-2006A-B01-1.png",
+      "PackagePath": "staticwebassets\\Images\\e43b24e2-19ee-4e31-b922-a5bc156e5174_636201053900769975_636201044123407300_Sony-PlayStation-4-CUH-2006A-B01-1.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\e6f6cf57-c4d4-4567-9fa1-48e4b5fae0bd_user.png",
+      "PackagePath": "staticwebassets\\Images\\e6f6cf57-c4d4-4567-9fa1-48e4b5fae0bd_user.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\f03dda4a-1ca1-4052-ba08-8cc45b0c4ef2_lenovo-thinkpad-p14s-g2-i5-20vx00e1vn-260722-054853-600x600.jpg",
+      "PackagePath": "staticwebassets\\Images\\f03dda4a-1ca1-4052-ba08-8cc45b0c4ef2_lenovo-thinkpad-p14s-g2-i5-20vx00e1vn-260722-054853-600x600.jpg"
+    },
+    {
       "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\f09eefbc-df81-4e2d-aaab-34bdb0522c67_z4453755774140_f898ce4c17a2baaf3b5a167a9c92c291.jpg",
       "PackagePath": "staticwebassets\\Images\\f09eefbc-df81-4e2d-aaab-34bdb0522c67_z4453755774140_f898ce4c17a2baaf3b5a167a9c92c291.jpg"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\f1ce421b-e8a1-4856-a3ca-999407bf5568_user.png",
+      "PackagePath": "staticwebassets\\Images\\f1ce421b-e8a1-4856-a3ca-999407bf5568_user.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\f71296a6-8d50-4d1b-bd64-6f7a60f58b89_user.png",
+      "PackagePath": "staticwebassets\\Images\\f71296a6-8d50-4d1b-bd64-6f7a60f58b89_user.png"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\ff12aac0-f068-4e2d-af78-1ebbfbbfd404_apple-macbook-air-15-inch-m2-2023-gray-thumb-600x600.jpg",
+      "PackagePath": "staticwebassets\\Images\\ff12aac0-f068-4e2d-af78-1ebbfbbfd404_apple-macbook-air-15-inch-m2-2023-gray-thumb-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\Images\\ffc8bf98-2a03-4e95-8725-d629152d6ff5_empty-order.png",
+      "PackagePath": "staticwebassets\\Images\\ffc8bf98-2a03-4e95-8725-d629152d6ff5_empty-order.png"
     },
     {
       "Id": "D:\\Nash\\DemoExample\\InventoryManagement\\src\\InventoryManagement.Presentation\\wwwroot\\build\\bootstrap-less\\.csscomb.json",

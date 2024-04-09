@@ -38,7 +38,7 @@ namespace InventoryManagement.Application.Featurers.Products.Queries.GetProducts
             var products = _productRepository.getListByCondition();
             if (!string.IsNullOrEmpty(request.searchString))
             {
-                products = products.Include(s=>s.Category).Where(s => s.Title.Contains(request.searchString) || s.Description.Contains(request.searchString)
+                products = products.Include(s=>s.Category).Where(s => s.Title.Contains(request.searchString) || s.Category.CategoryName.Contains(request.searchString)
                 || s.Brand.Contains(request.searchString) || s.Description.Contains(request.searchString));
             }
 

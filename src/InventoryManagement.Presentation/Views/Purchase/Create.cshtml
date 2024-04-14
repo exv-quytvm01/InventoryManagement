@@ -1,0 +1,172 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+    //@using InventoryManagement.Application.Dto.ProductionOrderDetails
+    @using InventoryManagement.Application.Dto.ProductOrders
+}
+
+@section HeadLinks {
+    <script src="~/bower_components/ckeditor/ckeditor.js"></script>
+}
+@model CreateProductOrderDto;
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <h1>
+        Purchase Order
+    </h1>
+    <ol class="breadcrumb">
+        <li><a asp-controller="Home" asp-action="Index"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a asp-controller="Purchase" asp-action="Index">Purchase Orders</a></li>
+        <li class="active class=" bg-info"">Add</li>
+    </ol>
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="row alert">
+        <!-- left column -->
+        <!--/.col (left) -->
+        <!-- right column -->
+        <div class="col-md-12">
+            <!-- Horizontal Form -->
+            <div class="box box-info">
+                <div class="box-header with-border">
+                    <a asp-controller="Purchase" asp-action="Index" class="btn btn-success btn-flat" style="text-decoration:none"><i class="fa fa-list"></i> List</a>
+                </div>
+                <!-- /.box-header -->
+                <!-- form start -->
+                <form asp-action="Create" method="post" class="form-horizontal" enctype="multipart/form-data">
+                    @Html.AntiForgeryToken()
+                    <div class="box-body">
+                        <div class="form-group">
+                            <label class="col-sm-3 ">Suplier</label>
+
+                            <div class="col-sm-9">
+                                <select asp-for="SupplierId" class="form-control" asp-items="ViewBag.SupplierId"></select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 ">Date</label>
+
+                            <div class="col-sm-9">
+                                <input type="date" class="form-control" asp-for="Date">
+                            </div>
+                        </div>
+                        
+                        <table id="CodesTable" class="table table-borderless table-sm mb-0 pb-0">
+                            <thead>
+                                <tr>
+                                    
+                                    <th>Product</th>
+                                    <th>Quantity</th>
+                                    <th>Price</th>
+                                    <th>Discount</th>
+                                    <th>Unit</th>
+                                    <th>
+                                        <button id='btnAddDetailRow' type="button" class="btn btn-sm btn-secondary visible" onclick="AddItem(this)">
+                                            Add
+                                        </button>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                    @for (int i = 0; i < Model.ListProductOrders.Count; i++)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @*<input asp-for="@Model.PoDetails[i].ProductCode" class="form-control" />*@
+                                                <select asp-for="@Model.ListProductOrders[i].ProductId" class="form-control"
+                                                asp-items="ViewBag.ProductId"></select>
+                                            </td>
+                                            <td>
+                                                <input asp-for="@Model.ListProductOrders[i].OrderQuantity" class="form-control" />
+                                                <span asp-validation-for="@Model.ListProductOrders[i].OrderQuantity" class="text-danger"></span>
+                                            </td>
+                                            <td>
+                                                <input asp-for="@Model.ListProductOrders[i].Price" class="form-control" />
+                                                <span asp-validation-for="@Model.ListProductOrders[i].Price" class="text-danger"></span>
+                                            </td>
+                                            <td>
+                                                <input asp-for="@Model.ListProductOrders[i].OrderDiscount" class="form-control" />
+                                                <span asp-validation-for="@Model.ListProductOrders[i].OrderDiscount" class="text-danger"></span>
+                                            </td>
+                                            <td>
+                                                <input asp-for="@Model.ListProductOrders[i].Unit" class="form-control"  />
+                                            </td>
+                                            <td style="width:60px;">
+                                                <button id='btnremove-@i' type="button" class="btn btn-sm btn-danger visible" onclick="DeleteItem(this)">
+                                                    Delete
+                                                </button>
+                                            </td>
+                                        </tr>
+                                    }
+                                
+                            </tbody>
+                        </table>
+                        <div class="form-group">
+                            <div class="col-sm-3 ">
+                                <button type="submit" class="btn btn-info btn-flat pull-left">Submit</button>
+                            </div>
+                            <div class="col-sm-9">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.box-body -->
+                    <div class="box-footer"></div>
+                    <!-- /.box-footer -->
+                </form>
+            </div>
+            <!-- /.box -->
+
+        </div>
+        <!--/.col (right) -->
+    </div>
+    <!-- /.row -->
+</section>
+
+@section FootLinks {
+    <!-- CK Editor -->
+    <script>
+        function AddItem(btn) {
+
+            var table;
+            table = document.getElementById('CodesTable');
+            var rows = table.getElementsByTagName('tr');
+            var rowOuterHtml = rows[rows.length - 1].outerHTML;
+
+            var lastrowIdx = rows.length - 2;
+
+            var nextrowIdx = eval(lastrowIdx) + 1;
+
+            rowOuterHtml = rowOuterHtml.replaceAll('_' + lastrowIdx + '_', '_' + nextrowIdx + '_');
+            rowOuterHtml = rowOuterHtml.replaceAll('[' + lastrowIdx + ']', '[' + nextrowIdx + ']');
+            rowOuterHtml = rowOuterHtml.replaceAll('-' + lastrowIdx, '-' + nextrowIdx);
+
+            var newRow = table.insertRow();
+            newRow.innerHTML = rowOuterHtml;
+
+            // var x = document.getElementsByTagName("INPUT");
+
+            // for (var cnt = 0; cnt < x.length; cnt++) {
+            //     if (x[cnt].type == "text" && x[cnt].id.indexOf('_' + nextrowIdx + '_') > 0) {
+            //         if (x[cnt].id.indexOf('Unit') == 0)
+            //             x[cnt].value = '';
+            //     }
+            //     else if (x[cnt].type == "number" && x[cnt].id.indexOf('_' + nextrowIdx + '_') > 0)
+            //         x[cnt].value = 0;
+            // }
+
+            // rebindvalidators();
+        }
+
+        function DeleteItem(btn) {
+            // Xóa hàng chứa nút "Delete"
+            const row = btn.parentNode.parentNode;
+            row.parentNode.removeChild(row);
+        }
+    </script>
+}

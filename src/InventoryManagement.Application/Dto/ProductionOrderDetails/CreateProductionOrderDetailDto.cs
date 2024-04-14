@@ -10,8 +10,9 @@ namespace InventoryManagement.Application.Dto.ProductionOrderDetails
 {
     public class CreateProductionOrderDetailDto
     {
+        public int Id { get; set; }
         public int ProductionOrderId { get; set; }
-        public int ProductId { get; set; }
+        public int ProductId { get; set; } 
         public int OrderQuantity { get; set; }
         public float Price { get; set; }
         public float OrderDiscount { get; set; }

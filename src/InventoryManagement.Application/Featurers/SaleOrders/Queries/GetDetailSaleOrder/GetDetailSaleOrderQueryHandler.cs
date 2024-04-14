@@ -29,7 +29,7 @@ namespace InventoryManagement.Application.Featurers.SaleOrders.Queries.GetDetail
 
         public async Task<DetailSaleOrderDto> Handle(GetDetailSaleOrderQuery request, CancellationToken cancellationToken)
         {
-            var so = await _saleOrderRepository.Get(request.Id);
+            var so = await _saleOrderRepository.GetSaleOrderDetail(request.Id);
             var items = await  _detailRepository.GetSaleOrderDetailsBySaleOrder(request.Id);
             var sod = new DetailSaleOrderDto() {
                 SaleOrderDto = _mapper.Map<SaleOrderDto>(so),

@@ -96,7 +96,7 @@
                             <li><a asp-controller="Customer" asp-action="Create"><i class="fa fa-circle-o"></i> Add Customer</a></li>
                         </ul>
                     </li>
-                    @* <li class="treeview">
+                    <li class="treeview">
                         <a href="#">
                             <i class="fa fa-list"></i>
                             <span>Puchase Orders</span>
@@ -105,12 +105,10 @@
                             </span>
                         </a>
                         <ul class="treeview-menu">
-                            <li><a href="pages/charts/chartjs.html"><i class="fa fa-circle-o"></i> ChartJS</a></li>
-                            <li><a href="pages/charts/morris.html"><i class="fa fa-circle-o"></i> Morris</a></li>
-                            <li><a href="pages/charts/flot.html"><i class="fa fa-circle-o"></i> Flot</a></li>
-                            <li><a href="pages/charts/inline.html"><i class="fa fa-circle-o"></i> Inline charts</a></li>
+                            <li><a asp-controller="Purchase" asp-action="Index"><i class="fa fa-circle-o"></i>Purchase Orders List</a></li>
+                            <li><a asp-controller="Purchase" asp-action="Create"><i class="fa fa-circle-o"></i> Create Purchase Order</a></li>
                         </ul>
-                    </li> *@
+                    </li>
                     <li class="treeview">
                         <a href="#">
                             <i class="fa fa-calendar-o"></i>
@@ -125,7 +123,7 @@
                             <li><a asp-controller="Product" asp-action="Create"><i class="fa fa-circle-o"></i>Add Product</a></li>
                         </ul>
                     </li>
-                    @* <li class="treeview">
+                    <li class="treeview">
                         <a href="#">
                             <i class=" fa fa-shopping-cart"></i> <span>Sales</span>
                             <span class="pull-right-container">
@@ -133,11 +131,10 @@
                             </span>
                         </a>
                         <ul class="treeview-menu">
-                            <li><a href="pages/forms/general.html"><i class="fa fa-circle-o"></i> General Elements</a></li>
-                            <li><a href="pages/forms/advanced.html"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
-                            <li><a href="pages/forms/editors.html"><i class="fa fa-circle-o"></i> Editors</a></li>
+                            <li><a asp-controller="Sale" asp-action="Index"><i class="fa fa-circle-o"></i>Sale Orders List</a></li>
+                            <li><a asp-controller="Sale" asp-action="Create"><i class="fa fa-circle-o"></i> Create Sale Order</a></li>
                         </ul>
-                    </li> *@
+                    </li> 
                     <li >
                         <a asp-controller="Stock" asp-action="Index">
                             <i class="fa fa-archive"></i> <span>Stock Management</span>                           
@@ -171,7 +168,7 @@
                             </ul>
                         </li>
                     }
-                    @* <li class="treeview">
+                   @*  <li class="treeview">
                         <a href="#">
                             <i class="fa fa-share"></i> <span>Multilevel</span>
                             <span class="pull-right-container">
@@ -205,7 +202,7 @@
                             </li>
                             <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
                         </ul>
-                    </li> *@
+                    </li>  *@
                    @*  <li><a href="https://adminlte.io/docs"><i class="fa fa-book"></i> <span>Documentation</span></a></li> *@
                 </ul>
             </section>

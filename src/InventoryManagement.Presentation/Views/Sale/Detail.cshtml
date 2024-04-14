@@ -1,0 +1,127 @@
+﻿@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+    @using InventoryManagement.Application.Dto.SaleOrders
+}
+
+@section HeadLinks {
+    <script src="~/bower_components/ckeditor/ckeditor.js"></script>
+}
+@model DetailSaleOrderDto;
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <h1>
+        Sale Order
+    </h1>
+    <ol class="breadcrumb">
+        <li><a asp-controller="Home" asp-action="Index"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a asp-controller="Sale" asp-action="Index">Sale Orders</a></li>
+        <li class="active class=" bg-info"">Add</li>
+    </ol>
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="row alert">
+        <!-- left column -->
+        <!--/.col (left) -->
+        <!-- right column -->
+        <div class="col-md-12">
+            <!-- Horizontal Form -->
+            <div class="box box-info">
+                <div class="box-header with-border">
+                    <a asp-controller="Sale" asp-action="Index" class="btn btn-success btn-flat" style="text-decoration:none"><i class="fa fa-list"></i> List</a>
+                </div>
+                <!-- /.box-header -->
+                <!-- form start -->
+                <div class="form-horizontal">
+                    @Html.AntiForgeryToken()
+                    <div class="box-body">
+                        <div class="form-group">
+                            <label class="col-sm-3 ">Customer</label>
+
+                            <div class="col-sm-9">
+                                <input type="text" readonly class="form-control" asp-for="SaleOrderDto.Customer.CustomerName">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 ">Date</label>
+
+                            <div class="col-sm-9">
+                                <input type="date" readonly class="form-control" asp-for="SaleOrderDto.Date">
+                            </div>
+                        </div>
+
+                        <table id="CodesTable" class="table table-borderless table-sm mb-0 pb-0">
+                            <thead>
+                                <tr>
+
+                                    <th>Customer</th>
+                                    <th>Quantity</th>
+                                    <th>Price</th>
+                                    <th>Unit</th>
+                                    @* <th>
+                                        <button id='btnAddDetailRow' type="button" class="btn btn-sm btn-secondary visible" onclick="AddItem(this)">
+                                            Add
+                                        </button>
+                                    </th> *@
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @for (int i = 0; i < Model.Details.Count; i++)
+                                {
+                                    <tr>
+                                        <td>
+                                            <input asp-for="@Model.Details[i].Product.Title" readonly class="form-control" />
+                                            @* <select asp-for="@Model.Details[i].ProductId" class="form-control"
+                                                    asp-items="ViewBag.ProductId"></select> *@
+                                        </td>
+                                        <td>
+                                            <input asp-for="@Model.Details[i].OrderQuantity" readonly class="form-control" />
+                                            <span asp-validation-for="@Model.Details[i].OrderQuantity" class="text-danger"></span>
+                                        </td>
+                                        <td>
+                                            <input asp-for="@Model.Details[i].OrderPrice" readonly class="form-control" />
+                                            <span asp-validation-for="@Model.Details[i].OrderPrice" class="text-danger"></span>
+                                        </td>
+                                       
+                                        <td>
+                                            <input asp-for="@Model.Details[i].Unit" readonly class="form-control" />
+                                        </td>
+                                        @* <td style="width:60px;">
+                                            <button id='btnremove-@i' type="button" class="btn btn-sm btn-danger visible" onclick="DeleteItem(this)">
+                                                Delete
+                                            </button>
+                                        </td> *@
+                                    </tr>
+                                }
+
+                            </tbody>
+                        </table>
+                        <div class="form-group">
+                            <div class="col-sm-3 ">
+                                <a asp-controller="Sale" asp-action="Index" class="btn btn-info btn-flat pull-left">Back</a>
+                            </div>
+                            <div class="col-sm-9">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.box-body -->
+                    <div class="box-footer"></div>
+                    <!-- /.box-footer -->
+                </div>
+            </div>
+            <!-- /.box -->
+
+        </div>
+        <!--/.col (right) -->
+    </div>
+    <!-- /.row -->
+</section>
+
+@section FootLinks {
+    <!-- CK Editor -->
+    <script>
+       
+    </script>
+}

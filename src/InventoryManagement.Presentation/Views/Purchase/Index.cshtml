@@ -1,0 +1,148 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit
+*@
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+    @using InventoryManagement.Application.Dto
+    @using InventoryManagement.Application.Dto.ProductOrders
+}
+@section HeadLinks {
+    <link rel="stylesheet" href="~/dist/css/skins/_all-skins.min.css">
+    <link rel="stylesheet" href="~/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
+}
+@model PaginatedListDto<ProductionOrderDto>;
+
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <h1>
+        Purchase Orders List
+    </h1>
+    <ol class="breadcrumb">
+        <li><a asp-controller="Home" asp-action="Index"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a asp-controller="Purchase" asp-action="Index">Customers</a></li>
+    </ol>
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="row alert">
+        <div class="col-xs-12">
+            <div class="box box-info">
+                <div class="box-header with-border">
+                    <a asp-controller="Purchase" asp-action="Create" class="btn btn-info btn-flat" style="text-decoration:none"><i class="fa fa-plus"></i> Add</a>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <div class="row" style="margin-bottom:10px">
+                        <div class="col-sm-4">
+                            <form asp-action="Index">
+                                <div class="input-group input-group-sm">
+                                    <input type="search" class="form-control" placeholder="Search" aria-label="Search" name="SearchString" value="@ViewData["CurrentFilter"]">
+                                    <span class="input-group-btn">
+                                        <button type="submit" class="btn btn-info btn-flat">Go!</button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="example2_wrapper" class="dataTables_wrapper form-inline dt-bootstrap">
+                        @* <div class="row"> *@
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>SL No.</th>
+                                    <th>Supplier</th>
+                                    <th>Date</th>
+                                    <th>Total</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @for (var i = 0; i < Model.Items.Count; i++)
+                                {
+                                    <tr>
+                                        <td>@(i + 1)</td>
+                                        <td>@Model.Items[i].Supplier.SupplierName</td>
+                                        <td>@Model.Items[i].Date</td>
+                                        <td>@Model.Items[i].total_anmt</td>
+                                        <td>
+                                            <a asp-action="Detail" asp-route-id="@Model.Items[i].Id" class="btn btn-warning"><i class="fa fa-eye"></i></a>
+                                            @* <a asp-action="Delete" asp-route-id="@Model.Items[i].Id" class="btn btn-danger"><i class="fa fa-trash"></i></a> *@
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+
+                        </table>
+                        @* </div> *@
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <div class="dataTables_info" id="example2_info" role="status" aria-live="polite">Showing @((@Model.PageIndex - 1) * @Model.PageSize + 1) to @((@Model.PageIndex - 1) * @Model.PageSize + @Model.PageSizeFact) of @Model.TotalItems entities</div>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="dataTables_paginate paging_simple_numbers" id="example2_paginate">
+                                    <ul class="pagination">
+                                        <li class="paginate_button previous @(Model.PageIndex == 1 ? "disabled" : "")" id="example2_previous">
+                                            <a aria-controls="example2" class="@(Model.PageIndex == 1 ? "disabled_link" : "")" asp-route-PageNumber="1"
+                                               asp-route-SortOrder="@ViewData["CurrentSort"]"
+                                               asp-route-CurrentFilter="@ViewData["CurrentFilter"]">
+                                                <span>First</span>
+                                            </a>
+                                        </li>
+                                        <li class="paginate_button previous @(Model.HasPreviousPage ? "" : "disabled")" id="example2_previous">
+                                            <a aria-controls="example2" class="@(Model.HasPreviousPage ? "" : "disabled_link")" asp-route-pageNumber="@(Model.PageIndex - 1)"
+                                               asp-route-sortOrder="@ViewData["CurrentSort"]"
+                                               asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                                                <span>Previous</span>
+                                            </a>
+                                        </li>
+                                        @for (int i = 1; i <= Model.TotalPages; i++)
+                                        {
+                                            <li class="paginate_button @(Model.PageIndex == i ? "active" : "")">
+                                                <a aria-controls="example2" asp-route-PageNumber="@i"
+                                                   asp-route-SortOrder="@ViewData["CurrentSort"]"
+                                                   asp-route-CurrentFilter="@ViewData["CurrentFilter"]">@i</a>
+                                            </li>
+                                        }
+
+                                        <li class="paginate_button previous @(Model.HasNextPage ? "" : "disabled")">
+                                            <a aria-controls="example2" class="@(Model.HasNextPage ? "" : "disabled_link")" asp-route-pageNumber="@(Model.PageIndex + 1)"
+                                               asp-route-sortOrder="@ViewData["CurrentSort"]"
+                                               asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                                                <span>Next</span>
+                                            </a>
+                                        </li>
+                                        <li class="paginate_button previous @(Model.PageIndex == Model.TotalPages ? "disabled" : "")">
+                                            <a aria-controls="example2" class="@(Model.PageIndex == Model.TotalPages ? "disabled_link" : "")" asp-route-PageNumber="@Model.TotalPages"
+                                               asp-route-SortOrder="@ViewData["CurrentSort"]"
+                                               asp-route-CurrentFilter="@ViewData["CurrentFilter"]">
+                                                <span>Last</span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        </<div>
+                        </div>
+                        <!-- /.box-body -->
+                    </div>
+                    <!-- /.box -->
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+</section>
+<!-- /.content -->
+@section FootLinks {
+    <style>
+        .disabled_link {
+            pointer-events: none;
+            cursor: not-allowed;
+        }
+    </style>
+    <script src="~/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="~/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+}

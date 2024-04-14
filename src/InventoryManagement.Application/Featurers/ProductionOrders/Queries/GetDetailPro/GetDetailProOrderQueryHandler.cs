@@ -30,7 +30,7 @@ namespace InventoryManagement.Application.Featurers.ProductionOrders.Queries.Get
 
         public async Task<DetailProductOrderDto> Handle(GetDetailProOrderQuery request, CancellationToken cancellationToken)
         {
-            var po = await _repository.Get(request.Id);
+            var po = await _repository.GetProductionOrderDetails(request.Id);
             var items = await _detailRepository.GetProOrderDetailsByProOrder(request.Id);
             var pod = new DetailProductOrderDto()
             {

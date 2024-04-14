@@ -40,6 +40,7 @@ namespace InventoryManagement.Infrastructure.Repositories
         public async Task<List<ProductionOrderDetail>> GetProOrderDetailsByProOrder(int id)
         {
             var items = await _context.ProductionOrderDetails
+                .Include(p => p.Product)
                 .Where(p=>p.ProductionOrderId == id)
                 .ToListAsync();
             return items;

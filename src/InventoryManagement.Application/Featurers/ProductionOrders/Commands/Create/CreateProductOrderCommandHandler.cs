@@ -39,9 +39,7 @@ namespace InventoryManagement.Application.Featurers.ProductionOrders.Commands.Cr
                 var item = _mapper.Map<ProductionOrderDetail>(Item);
                 await _detailRepository.Add(item);
                 
-                sum += item.OrderQuantity * item.OrderDiscount;
-
-
+                sum += item.OrderQuantity * item.Price;
             }
             po.total_anmt = sum;
             await _repository.Update(po);

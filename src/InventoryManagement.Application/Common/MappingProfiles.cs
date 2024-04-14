@@ -31,7 +31,8 @@ namespace InventoryManagement.Application.Common
             CreateMap<Category, CategoryDto>().ReverseMap();
             CreateMap<Category, CreateCategoryDto>().ReverseMap();
 
-            CreateMap<ProductionOrderDetail, CreateProductionOrderDetailDto>().ReverseMap();
+            CreateMap<ProductionOrderDetail, CreateProductionOrderDetailDto>().ForMember(dest => dest.Id, opt => opt.Ignore());
+            CreateMap<CreateProductionOrderDetailDto, ProductionOrderDetail>().ForMember(dest => dest.Id, opt => opt.Ignore());
             CreateMap<ProductionOrderDetail, ProductionOrderDetailDto>().ReverseMap();
 
             CreateMap<ProductionOrder, ProductionOrderDto>().ReverseMap();
@@ -39,12 +40,11 @@ namespace InventoryManagement.Application.Common
             CreateMap<Product, ProductDto>();
             CreateMap<ProductDto, Product>().ForMember(dest => dest.Image, opt => opt.Ignore());
             CreateMap<Product, CreateProductDto>().ForMember(dest => dest.Image, opt => opt.Ignore()).ReverseMap();
-            //CreateMap<Product, UpdateProductDto>().ForMember(dest => dest.Image, opt => opt.Ignore()).ReverseMap();
 
             CreateMap<SaleOrder, SaleOrderDto>().ReverseMap();
 
             CreateMap<SaleOrderDetail, SaleOrderDetailDto>().ReverseMap();
-            CreateMap<SaleOrderDetail, CreateSaleOrderDetailDto>().ReverseMap();
+            CreateMap<SaleOrderDetail, CreateSaleOrderDetailDto>().ForMember(dest => dest.Id, opt => opt.Ignore()).ReverseMap();
 
             CreateMap<Stock, StockDto>().ReverseMap();
 

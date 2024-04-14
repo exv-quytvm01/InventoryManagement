@@ -14,6 +14,7 @@ namespace InventoryManagement.Application.Dto.SaleOrders
         public int CustomerId { get; set; }
         public DateTime Date { get; set; }
         public float? total_anmt { get; set; }
-        public List<CreateSaleOrderDetailDto> ListSaleProducts { get; set; }
+        public List<CreateSaleOrderDetailDto> 
+            ListSaleProducts { get; set; } = new List<CreateSaleOrderDetailDto>();
     }
 }
